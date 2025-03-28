@@ -1,0 +1,83 @@
+encoder: transformer
+encoder_conf:
+  activation_type: gelu
+  attention_dropout_rate: 0.0
+  attention_heads: 20
+  dropout_rate: 0.0
+  gradient_checkpointing: true
+  input_layer: conv1d2  # NOTE(xcsong): conv1d2, conv2d, conv2d8
+  key_bias: false
+  linear_units: 5120
+  normalize_before: true
+  num_blocks: 32
+  output_size: 1280
+  pos_enc_layer_type: abs_pos_whisper
+  positional_dropout_rate: 0.0
+  static_chunk_size: -1
+  use_dynamic_chunk: false
+  use_dynamic_left_chunk: false
+
+decoder: qwen
+attn_implementation: flash_attention_2
+tokenizer: qwen
+qwen_path: your_path_to_qwen # git clone https://huggingface.co/Qwen/Qwen2.5-7B
+whisper_checkpoint: your_path_to_wenet-style_whisper-large-v3
+projector_checkpoint: # none if step 1
+freeze_whisper: true
+freeze_qwen: true
+use_qwen_lora: false # false if step 1, true if step 2
+qwen_lora_rank: 32
+qwen_lora_alpha: 8
+qwen_lora_dropout: 0.05
+
+model: whisper-qwen
+
+dataset: asr
+dataset_conf:
+  batch_conf:
+    batch_size: 26
+    batch_type: dynamic
+    max_frames_in_batch: 4000
+  feats_type: log_mel_spectrogram
+  filter_conf:
+    max_length: 1500
+    min_length: 0
+    token_max_length: 448
+    token_min_length: 1
+  log_mel_spectrogram_conf:
+    hop_length: 160
+    n_fft: 400
+    num_mel_bins: 128
+    padding: 0
+  resample_conf:
+    resample_rate: 16000
+  shuffle: true
+  shuffle_conf:
+    shuffle_size: 1500
+  sort: true
+  sort_conf:
+    sort_size: 500
+  spec_aug: true
+  spec_aug_conf:
+    max_f: 10
+    max_t: 50
+    num_f_mask: 2
+    num_t_mask: 2
+  spec_sub: true
+  spec_sub_conf:
+    max_t: 30
+    num_t_sub: 3
+  spec_trim: false
+  speed_perturb: true
+
+grad_clip: 5
+accum_grad: 1
+max_epoch: 6
+log_interval: 100
+input_dim: 128
+optim: adam
+optim_conf:
+  lr: 0.0001
+scheduler: warmuplr
+scheduler_conf:
+  warmup_steps: 2500
