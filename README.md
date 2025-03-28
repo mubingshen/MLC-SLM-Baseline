@@ -14,3 +14,9 @@ The challenge consists of two tasks, both of which require participants to explo
 ***Task II: Multilingual Conversational Speech Diarization and Recognition***
 
 This project provides baseline systems for the two tasks mentioned above!
+
+## Setup
+
+```shell
+git clone https://github.com/yufan-aslp/AliMeeting.git
+```
