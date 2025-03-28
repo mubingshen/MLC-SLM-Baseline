@@ -32,21 +32,22 @@ pip install -r requirements.txt
 ## Baseline Results
 ## Task I: Multilingual Conversational Speech Recognition
 
-| LID                | Vanilla Whisper-large-v3 | Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B (Baseline) |
-|--------------------|--------------------------|----------------------------------------------------------|
-| English-American   | 14.14                    | 14.04                                                    |
-| English-Australian | 11.72                    | 11.60                                                    |
-| English-British    | 10.08                    | 11.37                                                    |
-| English-Filipino   | 9.20                     | 8.15                                                     |
-| English-Indian     | 13.96                    | 17.73                                                    |
-| French             | 26.72                    | 25.33                                                    |
-| German             | 20.53                    | 36.64                                                    |
-| Italian            | 17.94                    | 24.22                                                    |
-| Japanese           | 21.64                    | 34.88                                                    |
-| Korean             | 13.80                    | 20.60                                                    |
-| Portuguese         | 20.82                    | 36.09                                                    |
-| Russian            | 7.36                     | 7.51                                                     |
-| Spanish            | 12.24                    | 15.00                                                    |
-| Thai               | 14.49                    | 23.10                                                    |
-| Vietnamese         | 23.02                    | 18.22                                                    |
-| Avg.               | 15.36                    | 19.82                                                    |
+| LID                | Vanilla Whisper-large-v3    | Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B (Baseline) |
+|--------------------|-----------------------------|----------------------------------------------------------|
+| English-American   | 14.14                       | 14.04                                                    |
+| English-Australian | 11.72                       | 11.60                                                    |
+| English-British    | 10.08                       | 11.37                                                    |
+| English-Filipino   | 9.20                        | 8.15                                                     |
+| English-Indian     | 13.96                       | 17.73                                                    |
+| French             | 26.72                       | 25.33                                                    |
+| German             | 20.53                       | 36.64                                                    |
+| Italian            | 17.94                       | 24.22                                                    |
+| Japanese           | 21.64                       | 34.88                                                    |
+| Korean             | 13.80                       | 20.60                                                    |
+| Portuguese         | 20.82                       | 36.09                                                    |
+| Russian            | 7.36                        | 7.51                                                     |
+| Spanish            | 12.24                       | 15.00                                                    |
+| Thai               | 14.49                       | 23.10                                                    |
+| Vietnamese         | 23.02                       | 18.22                                                    |
+| Avg.               | 15.36                       | 19.82                                                    |
+
