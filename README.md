@@ -18,5 +18,5 @@ This project provides baseline systems for the two tasks mentioned above!
 ## Setup
 
 ```shell
-git clone https://github.com/yufan-aslp/AliMeeting.git
+git clone https://github.com/mubingshen/MLC-SLM-Baseline.git
 ```
