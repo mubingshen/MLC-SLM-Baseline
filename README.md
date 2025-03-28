@@ -19,6 +19,7 @@ This project provides baseline systems for the two tasks mentioned above!
 
 ```shell
 git clone https://github.com/mubingshen/MLC-SLM-Baseline.git
+pip install requirements.txt
 ```
 
 ## Introduction
