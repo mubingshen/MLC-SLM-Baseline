@@ -23,5 +23,5 @@ git clone https://github.com/mubingshen/MLC-SLM-Baseline.git
 
 ## Introduction
 
-* Task I: Follow the detailed steps in `./examples/mlcslm/asr`. 
-* Task II: Follow the detailed steps in `./examples/mlcslm/sdasr`. 
+* [Task I](./examples/mlcslm/asr): Follow the detailed steps in `./examples/mlcslm/asr`. 
+* [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`. 
