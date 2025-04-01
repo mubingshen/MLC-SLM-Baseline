@@ -36,9 +36,13 @@ pip install -r requirements.txt
 
 ## Baseline Results
 ## Task I: Multilingual Conversational Speech Recognition
-Baseline：Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B
+**Baseline**: Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B
 
-Evaluation matrix: Word Error Rate (WER) or Character Error Rate (CER)
+**Training steps**:
+* Step 1: Train the projector between the encoder and LLM
+* Step 2: Load the projector trained in the first step, and then train the projector and LLM LoRA simultaneously
+
+**Evaluation matrix**: Word Error Rate (WER) or Character Error Rate (CER)
 
 | LID                | Vanilla Whisper-large-v3    | Baseline |
 |--------------------|-----------------------------|----------|
