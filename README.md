@@ -30,8 +30,8 @@ pip install -r requirements.txt
 * [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`.
 
 ## To-do list
-- [x] Task I baseline with vanilla whisper-large-v3 encoder & Qwen2.5-7B
-- [ ] Task I baseline with vanilla whisper-large-v3 encoder & llama3.1-8B will be coming soon
+- [x] Task I ASR baseline with vanilla whisper-large-v3 encoder & Qwen2.5-7B
+- [ ] Task I ASR baseline with vanilla whisper-large-v3 encoder & llama3.1-8B will be coming soon
 - [ ] Task II speaker diarization baseline will be coming soon
 
 ## Baseline Results
