@@ -27,7 +27,12 @@ pip install -r requirements.txt
 ## Introduction
 
 * [Task I](./examples/mlcslm/asr): Follow the detailed steps in `./examples/mlcslm/asr`. 
-* [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`. 
+* [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`.
+
+## To do list
+- [x] Task I baseline with whisper-large-v3 encoder & Qwen2.5-7B
+- [ ] Task I baseline with whisper-large-v3 encoder & llama3.1-8B will be coming soon
+- [ ] Task II speaker diazation baseline will be coming soon
 
 ## Baseline Results
 ## Task I: Multilingual Conversational Speech Recognition
