@@ -26,8 +26,8 @@ pip install -r requirements.txt
 ```
 ## Introduction
 
-* [Task I](./examples/mlcslm/asr): Follow the detailed steps in `./examples/mlcslm/asr`. 
-* [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`.
+* [Task I](./examples/mlcslm/asr): Follow the detailed steps in `./examples/mlcslm/asr`
+* [Task II](./examples/mlcslm/sdasr): Follow the detailed steps in `./examples/mlcslm/sdasr`
 
 ## To-do list
 - [x] Task I ASR baseline with vanilla whisper-large-v3 encoder & Qwen2.5-7B
