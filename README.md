@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ## To do list
 - [x] Task I baseline with whisper-large-v3 encoder & Qwen2.5-7B
 - [ ] Task I baseline with whisper-large-v3 encoder & llama3.1-8B will be coming soon
-- [ ] Task II speaker diazation baseline will be coming soon
+- [ ] Task II speaker diarization baseline will be coming soon
 
 ## Baseline Results
 ## Task I: Multilingual Conversational Speech Recognition
