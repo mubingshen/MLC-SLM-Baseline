@@ -272,7 +272,7 @@ def main():
                 results = model.decode(
                     feats,
                     feats_lengths,
-                    configs['qwen_path']
+                    configs['llm_path']
                     )
                 # import pdb;pdb.set_trace()
                 assert len(keys) == len(results)

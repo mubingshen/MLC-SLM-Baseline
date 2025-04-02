@@ -371,7 +371,7 @@ def init_dataset_and_dataloader(args, configs, tokenizer, seed=777):
         configs['dataset_conf']['cycle'] = configs.get('max_epoch', 100)
     conf = configs['dataset_conf']
     dataset_type = configs.get('dataset', 'asr')
-    if configs['tokenizer'] == 'qwen':
+    if configs['tokenizer'] == 'llm':
         configs['vocab_size'] = tokenizer.vocab_size
     else:
         configs['vocab_size'] = tokenizer.vocab_size()

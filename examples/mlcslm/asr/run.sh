@@ -16,8 +16,8 @@ log() {
     echo -e "$(date '+%Y-%m-%dT%H:%M:%S') (${fname}:${BASH_LINENO[0]}:${FUNCNAME[1]}) $*"
 }
 
-stage=8
-stop_stage=8
+stage=0
+stop_stage=0
 
 # You should change the following two parameters for multiple machine training,
 # see https://pytorch.org/docs/stable/elastic/run.html
@@ -56,7 +56,7 @@ prefetch=10
 average_checkpoint=true
 decode_checkpoint=$step2_dir/final.pt
 average_num=3
-decode_mode=whisper_qwen_decode
+decode_mode=whisper_llm_decode
 
 train_engine=deepspeed
 
@@ -71,7 +71,6 @@ if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then
 
     ln -s your_training_data_path ./train_data
     ln -s your_dev_data_path ./dev_data
-
     python local/prepare_segments.py --data_dir $train_data_dir --segments_path $train_segments_path
     log "Segments file of training dataset is saved into $train_segments_path"
 
@@ -166,13 +165,13 @@ fi
 if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
   log "Stage 4: Training step 1 start"
 
-  # !!! Run below command to prepare wenet-style whisper-large-v3 !!!
+  # !!! Run below commands to prepare wenet-style whisper-large-v3 !!!
   # Download whisper ckpt from this [link](https://github.com/openai/whisper/blob/main/whisper/__init__.py#L17-L30)
   # Convert openai-style ckpt to wenet-style ckpt:
   # python wenet/whisper/convert_whisper_to_wenet_config_and_ckpt.py \
-  #   --whisper_ckpt your_path_to_whisper-large-v3.pt \
-  #   --output_dir your_dir_to_wenet-style whisper-large-v3
-
+  #   --whisper_ckpt pretrained-models/vanilla_whisper_large_v3/large-v3.pt \
+  #   --output_dir pretrained-models/vanilla_whisper_large_v3
+  
   mkdir -p $step1_dir
   num_gpus=$(echo $CUDA_VISIBLE_DEVICES | awk -F "," '{print NF}')
   # Use "nccl" if it works, otherwise use "gloo"
@@ -276,7 +275,7 @@ if [ ${stage} -le 8 ] && [ ${stop_stage} -ge 8 ]; then
       --val_best
   fi
 
-  python wenet/bin/recognize_mlcslm_baseline.py --gpu 0 \
+  python wenet/bin/recognize_mlcslm_baseline.py --gpu 7 \
     --modes $decode_mode \
     --config $step2_dir/train.yaml \
     --data_type $data_type \

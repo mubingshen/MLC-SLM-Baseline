@@ -17,27 +17,27 @@ encoder_conf:
   use_dynamic_chunk: false
   use_dynamic_left_chunk: false
 
-decoder: qwen
+decoder: llama # qwen or llama
 attn_implementation: flash_attention_2
-tokenizer: qwen
-qwen_path: your_path_to_qwen # git clone https://huggingface.co/Qwen/Qwen2.5-7B
+tokenizer: llm
+llm_path: your_path_to_llm # git clone https://huggingface.co/Qwen/Qwen2.5-7B or git clone https://huggingface.co/meta-llama/Llama-3.1-8B
 whisper_checkpoint: your_path_to_wenet-style_whisper-large-v3
 projector_checkpoint: your_path_to_step1_trained_model # none if step 1
 freeze_whisper: true
-freeze_qwen: true
-use_qwen_lora: true # false if step 1, true if step 2
-qwen_lora_rank: 16
-qwen_lora_alpha: 8
-qwen_lora_dropout: 0.05
+freeze_llm: true
+use_llm_lora: true # false if step 1, true if step 2
+llm_lora_rank: 16
+llm_lora_alpha: 8
+llm_lora_dropout: 0.05
 
-model: whisper-qwen
+model: whisper-llm
 
 dataset: asr
 dataset_conf:
   batch_conf:
     batch_size: 26
     batch_type: dynamic
-    max_frames_in_batch: 2000
+    max_frames_in_batch: 1500
   feats_type: log_mel_spectrogram
   filter_conf:
     max_length: 1500
@@ -72,7 +72,7 @@ dataset_conf:
 
 grad_clip: 5
 accum_grad: 1
-max_epoch: 4
+max_epoch: 5
 log_interval: 100
 input_dim: 128
 optim: adam

@@ -102,13 +102,13 @@ def main():
     if configs['freeze_whisper']:
         for _, param in model.encoder.named_parameters():
             param.requires_grad = False
-    if configs['freeze_qwen']:
-        if configs['use_qwen_lora']:
-            for name, param in model.qwen.named_parameters():
+    if configs['freeze_llm']:
+        if configs['use_llm_lora']:
+            for name, param in model.llm.named_parameters():
                 if 'lora' not in name:
                     param.requires_grad = False
         else:
-            for _, param in model.qwen.named_parameters():
+            for _, param in model.llm.named_parameters():
                 param.requires_grad = False
     
     # Print trainable parameters

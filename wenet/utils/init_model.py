@@ -1,5 +1,5 @@
 # Copyright (c) 2022 Binbin Zhang (binbzha@qq.com)
-#
+#               2025 ASLP@NPU for MLC-SLM Baseline. (authors: Bingshen Mu)
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -43,7 +43,7 @@ from wenet.transformer.encoder import ConformerEncoder, TransformerEncoder
 from wenet.utils.checkpoint import load_checkpoint, load_trained_modules, load_projector, load_whisper_encoder
 from wenet.utils.cmvn import load_cmvn
 from wenet.whisper.whisper import Whisper
-from wenet.whisper_qwen.whisper_qwen import WhisperQwen
+from wenet.whisper_llm.whisper_llm import WhisperLLM
 from transformers import AutoModelForCausalLM
 from peft import LoraConfig, TaskType, get_peft_model
 
@@ -86,7 +86,7 @@ WENET_MODEL_CLASSES = {
     "asr_model": ASRModel,
     "ctl_model": CTLModel,
     "whisper": Whisper,
-    "whisper-qwen": WhisperQwen,
+    "whisper-llm": WhisperLLM,
     "firered": FireReadModel,
     "k2_model": K2Model,
     "transducer": Transducer,
@@ -119,23 +119,23 @@ def init_speech_model(args, configs, tokenizer, inference_mode):
         **configs['encoder_conf']['efficient_conf']
         if 'efficient_conf' in configs['encoder_conf'] else {})
 
-    if decoder_type == "qwen":
-        qwen = AutoModelForCausalLM.from_pretrained(
-            configs['qwen_path'],
+    if decoder_type == "qwen" or decoder_type == "llama":
+        llm = AutoModelForCausalLM.from_pretrained(
+            configs['llm_path'],
             attn_implementation=configs['attn_implementation'],
             torch_dtype=torch.bfloat16,
         )
-        if configs['use_qwen_lora']:
+        if configs['use_llm_lora']:
             target_modules = ["q_proj", "k_proj", "v_proj", "o_proj", "up_proj","gate_proj", "down_proj"]
             peft_config = LoraConfig(
                 task_type=TaskType.CAUSAL_LM, 
                 inference_mode=inference_mode, 
-                r=configs['qwen_lora_rank'], 
-                lora_alpha=configs['qwen_lora_alpha'], 
-                lora_dropout=configs['qwen_lora_dropout'],
+                r=configs['llm_lora_rank'], 
+                lora_alpha=configs['llm_lora_alpha'], 
+                lora_dropout=configs['llm_lora_dropout'],
                 target_modules=target_modules,
             )
-            qwen = get_peft_model(qwen, peft_config)
+            llm = get_peft_model(llm, peft_config)
     else:
         decoder = WENET_DECODER_CLASSES[decoder_type](vocab_size,
                                                   encoder.output_size(),
@@ -148,12 +148,13 @@ def init_speech_model(args, configs, tokenizer, inference_mode):
         if 'ctc_conf' in configs else 0)
 
     model_type = configs.get('model', 'asr_model')
-    if model_type == "whisper-qwen":
+    if model_type == "whisper-llm":
         model = WENET_MODEL_CLASSES[model_type](
             encoder=encoder,
-            qwen=qwen,
+            llm=llm,
             tokenizer=tokenizer,
-            use_qwen_lora=configs['use_qwen_lora'],
+            use_llm_lora=configs['use_llm_lora'],
+            decoder_type=decoder_type,
         )
     elif model_type == "transducer":
         predictor_type = configs.get('predictor', 'rnn')
@@ -211,9 +212,9 @@ def init_model(args, configs, tokenizer, inference_mode=False):
     if hasattr(args, 'use_lora') and args.use_lora:
         inject_lora_to_model(model, configs['lora_conf'])
 
-    if model_type == 'whisper-qwen' and configs['whisper_checkpoint'] is not None:
+    if model_type == 'whisper-llm' and configs['whisper_checkpoint'] is not None:
         load_whisper_encoder(model, configs['whisper_checkpoint'])
-    if model_type == 'whisper-qwen' and configs['projector_checkpoint'] is not None:
+    if model_type == 'whisper-llm' and configs['projector_checkpoint'] is not None:
         load_projector(model, configs['projector_checkpoint'])
     
     # If specify checkpoint, load some info from checkpoint

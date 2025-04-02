@@ -1,6 +1,6 @@
 # Copyright (c) 2021 Wenet Community. (authors: Binbin Zhang)
 #               2023 Wenet Community. (authors: Dinghao Zhou)
-#               2025 ASLP@NPU for MLC-SLM Baseline. (authors: Bingshen Mu)
+#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at

@@ -1,6 +1,6 @@
 # Copyright (c) 2023 Wenet Community. (authors: Dinghao Zhou)
 #                                     (authors: Xingchen Song)
-#
+#               2025 ASLP@NPU for MLC-SLM Baseline. (authors: Bingshen Mu)
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -48,8 +48,8 @@ def init_tokenizer(configs) -> BaseTokenizer:
         tokenizer = ParaformerTokenizer(
             symbol_table=configs['tokenizer_conf']['symbol_table_path'],
             seg_dict=configs['tokenizer_conf']['seg_dict_path'])
-    elif tokenizer_type == 'qwen':
-        tokenizer = AutoTokenizer.from_pretrained(configs['qwen_path'])
+    elif tokenizer_type == 'llm':
+        tokenizer = AutoTokenizer.from_pretrained(configs['llm_path'])
     else:
         raise NotImplementedError
     logging.info("use {} tokenizer".format(configs["tokenizer"]))
