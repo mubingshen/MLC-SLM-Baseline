@@ -16,8 +16,8 @@ log() {
     echo -e "$(date '+%Y-%m-%dT%H:%M:%S') (${fname}:${BASH_LINENO[0]}:${FUNCNAME[1]}) $*"
 }
 
-stage=0
-stop_stage=0
+stage=8
+stop_stage=8
 
 # You should change the following two parameters for multiple machine training,
 # see https://pytorch.org/docs/stable/elastic/run.html
@@ -32,13 +32,11 @@ nj=30
 data_type=shard
 num_utts_per_shard=1000
 
-# train_data_dir=train_data
-train_data_dir=/mnt/pfs-mc0p4k/asr/team/zksun/data/MCLSLM/data
+train_data_dir=train_data
 train_segments_path=train_data/segments
 train_split_dir=train_data/split
 train_split_log_dir=train_data/split_log
-# dev_data_dir=dev_data
-dev_data_dir=/mnt/pfs-mc0p4k/asr/team/zksun/data/MCLSLM/MLC-SLM_Workshop-Development_Set/data
+dev_data_dir=dev_data
 dev_segments_path=dev_data/segments
 dev_split_dir=dev_data/split
 dev_split_log_dir=dev_data/split_log
@@ -71,8 +69,8 @@ deepspeed_save_states=""model+optimizer""
 if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then
     log "Stage 0: Generate segments"
 
-    # ln -s your_training_data_path ./train_data
-    # ln -s your_dev_data_path ./dev_data
+    ln -s your_training_data_path ./train_data
+    ln -s your_dev_data_path ./dev_data
 
     python local/prepare_segments.py --data_dir $train_data_dir --segments_path $train_segments_path
     log "Segments file of training dataset is saved into $train_segments_path"

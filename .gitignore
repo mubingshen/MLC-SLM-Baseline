@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# C extensions
+*.so
+# databases
+examples/mlcslm/asr/train_data/
+examples/mlcslm/asr/dev_data/
+examples/mlcslm/speaker-diarization/exp_finetune/
+examples/mlcslm/speaker-diarization/finetune_pyannote/
+examples/mlcslm/speaker-diarization/reference_3dspeaker/
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+install.py
+# IDEs and editors
+.idea/
+.vscode/
+*.iml

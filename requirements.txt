@@ -68,7 +68,7 @@ jupyter-server==1.10.2
 jupyterlab==3.1.10
 jupyterlab-pygments==0.1.2
 jupyterlab-server==2.7.2
-k2==1.24.4.dev20240223+cuda12.1.torch2.2.1
+k2==1.24.4
 kaldialign==0.9.1
 kaldiio==2.18.1
 langid==1.1.6
