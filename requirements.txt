@@ -11,7 +11,7 @@ backcall
 bitarray
 bleach
 blessed
-certifi=
+certifi
 cffi
 cfgv
 charset-normalizer
