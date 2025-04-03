@@ -34,7 +34,7 @@ pip install -r requirements.txt
 - [x] Task I ASR baseline with vanilla whisper-large-v3 encoder & Llama3.1-8B will be coming soon
 - [ ] Task II speaker diarization baseline will be coming soon
 
-## Baseline Results
+## Baseline Results on the Dev set
 ## Task I: Multilingual Conversational Speech Recognition
 **Baseline-Qwen**: Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B
 
