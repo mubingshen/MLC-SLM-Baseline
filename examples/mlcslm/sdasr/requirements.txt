@@ -1,0 +1,17 @@
+numba==0.56.2
+umap-learn
+modelscope
+funasr
+transformers
+hdbscan
+fastcluster
+opencv-python
+python_speech_features
+onnxruntime-gpu
+pyannote-core
+pyannote-audio
+modelscope
+addict
+datasets==3.0
+simplejson
+numpy==1.26.4

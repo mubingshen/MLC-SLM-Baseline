@@ -1,0 +1,17 @@
+Databases:
+  MLCSLM: 
+    - /{uri}
+
+Protocols:
+  MLCSLM:
+    SpeakerDiarization:
+      FinetuneProtocol:
+        scope: file
+        train:
+            uri: finetune_pyannote/rttm/train_wav.lst
+            annotation: finetune_pyannote/rttm/train_rttm.rttm
+            annotated: finetune_pyannote/rttm/train_uem.uem
+        development:
+            uri: finetune_pyannote/rttm/dev_wav.lst
+            annotation: finetune_pyannote/rttm/dev_rttm.rttm
+            annotated: finetune_pyannote/rttm/dev_uem.uem

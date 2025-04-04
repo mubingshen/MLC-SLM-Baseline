@@ -1,5 +1,6 @@
 absl-py
 accelerate
+addict
 annotated-types
 antlr4-python3-runtime
 anyio
@@ -22,6 +23,7 @@ coloredlogs
 cpplint
 Cython
 cytoolz
+datasets==3.0
 debugpy
 decorator
 deepspeed
@@ -33,6 +35,7 @@ entrypoints
 et_xmlfile
 exceptiongroup
 fairseq
+fastcluster
 filelock
 flake8
 flake8-bugbear
@@ -42,9 +45,11 @@ flake8-pyi
 flash-attn
 flatbuffers
 fsspec
+funasr
 gpustat
 graphviz
 grpcio
+hdbscan
 hjson
 huggingface-hub
 humanfriendly
@@ -83,6 +88,7 @@ MarkupSafe
 matplotlib-inline
 mccabe
 mistune
+modelscope
 more-itertools
 mpmath
 msgpack
@@ -95,8 +101,8 @@ networkx
 ninja
 nodeenv
 notebook
-numba
-numpy
+numba==0.56.2
+numpy==1.26.4
 nvidia-cublas-cu12
 nvidia-cuda-cupti-cu12
 nvidia-cuda-nvrtc-cu12
@@ -112,7 +118,9 @@ nvidia-nvjitlink-cu12
 nvidia-nvtx-cu12
 omegaconf
 onnxruntime
+onnxruntime-gpu
 openai-whisper @ git+https://github.com/yuekaizhang/whisper.git@089f08945b4934eb6a453c61492fe2d7835e115a
+opencv-python
 openpyxl
 packaging
 pandas
@@ -132,6 +140,8 @@ prompt-toolkit
 protobuf
 psutil
 ptyprocess
+pyannote-audio
+pyannote-core
 py-cpuinfo
 pycodestyle
 pycparser
@@ -144,6 +154,7 @@ pypinyin
 pyrsistent
 pytest
 python-dateutil
+python_speech_features
 pytz
 PyYAML
 pyzmq
@@ -159,6 +170,7 @@ scikit-learn
 scipy
 Send2Trash
 sentencepiece
+simplejson
 six
 sniffio
 sortedcontainers
@@ -189,6 +201,7 @@ triton
 typeguard
 typing_extensions
 tzdata
+umap-learn
 urllib3
 virtualenv
 wcwidth
