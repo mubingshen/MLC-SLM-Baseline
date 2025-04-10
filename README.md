@@ -123,3 +123,4 @@ Time-Constrained minimum-Permutation Word Error Rate (tcpWER) with collar = 5
 
 ## Contact US
 * Bingshen Mu: `bsmu@mail.nwpu.edu.cn`.
+* Zhaokai Sun: `zksun@mail.nwpu.edu.cn`.
