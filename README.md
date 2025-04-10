@@ -36,6 +36,9 @@ pip install -r requirements.txt
 
 ## Baseline Results on the Dev set
 ## Task I: Multilingual Conversational Speech Recognition
+
+![task1_fig](./figs/task1.png)
+
 **Baseline-Qwen**: Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B
 
 **Baseline-Llama**: Vanilla Whisper-large-v3 Encoder + Llama3.1-8B
@@ -66,6 +69,9 @@ pip install -r requirements.txt
 | Avg.               | 15.36                       | 19.82         | 19.74          |
 
 ## Task II: Multilingual Conversational Speech Diarization and Recognition
+
+![task1_fig](./figs/task1.png)
+
 **Baseline**: 3D-Speaker Diarization + Task I ASR-LLM model
 
 **Training steps**:
