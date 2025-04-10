@@ -37,7 +37,7 @@ pip install -r requirements.txt
 ## Baseline Results on the Dev set
 ## Task I: Multilingual Conversational Speech Recognition
 
-![task1_fig](./figs/task2.png)
+![task1_fig](./figs/task1.png)
 
 **Baseline-Qwen**: Vanilla Whisper-large-v3 Encoder + Qwen2.5-7B
 
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ## Task II: Multilingual Conversational Speech Diarization and Recognition
 
-![task1_fig](./figs/task1.png)
+![task1_fig](./figs/task2.png)
 
 **Baseline**: 3D-Speaker Diarization + Task I ASR-LLM model
 
