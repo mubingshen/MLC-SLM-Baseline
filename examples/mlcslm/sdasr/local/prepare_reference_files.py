@@ -24,7 +24,7 @@ def generate_file_lists(args):
             ref_file_dict[language_id]={}
         session_id=os.path.basename(ref_file).split('.')[0]
         if session_id not in ref_file_dict[language_id]:
-            ref_file_dict[language_id][session_id]=[]
+            ref_file_dict[language_id][language_id+'_'+session_id]=[]
         
         for line in ref_data:
             if len(line)!=0:
@@ -32,11 +32,16 @@ def generate_file_lists(args):
                 origin 1.680273886484085       2.3401385301640696      O1      Hi Will
                 target SPEAKER 2speakers_example 0 40.932 7.801 <NA> <NA> 2 <NA> <NA>
                 '''
-                ref_file_dict[language_id][session_id].append(\
-                    'SPEAKER {} 0 {} {} <NA> <NA> {} <NA> <NA>'.format(\
-                    session_id, round(float(line[0]), 4), round(float(line[1])-float(line[0]), 4), line[2]))
+                ref_file_dict[language_id][language_id+'_'+session_id].append(\
+                    'SPEAKER {}_{} 0 {} {} <NA> <NA> {} <NA> <NA>'.format(\
+                    language_id, session_id, round(float(line[0]), 4), round(float(line[1])-float(line[0]), 4), line[2]))
     for audio_file in audio_file_lists:
-        audio_file_dict[os.path.basename(audio_file).split('.')[0]]=audio_file
+        language_id=audio_file.split('/')[-2] if args.dataset_part=='dev' else ref_file.split('/')[-3]
+        language_output_path=os.path.join(args.output_path, f'{args.dataset_part}_wav/{language_id}')
+        os.makedirs(language_output_path, exist_ok=True)
+        audio_output_path=language_output_path+'/'+language_id+'_'+os.path.basename(audio_file)
+        os.symlink(audio_file, audio_output_path)
+        audio_file_dict[os.path.basename(audio_output_path).split('.')[0]]=audio_output_path
 
     # write audio lists
     with open(os.path.join(args.output_path, f'{args.dataset_part}_wav.list'), 'w') as f:

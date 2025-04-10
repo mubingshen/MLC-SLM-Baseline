@@ -15,3 +15,6 @@ Protocols:
             uri: finetune_pyannote/rttm/dev_wav.lst
             annotation: finetune_pyannote/rttm/dev_rttm.rttm
             annotated: finetune_pyannote/rttm/dev_uem.uem
+
+
+            

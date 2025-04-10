@@ -11,7 +11,7 @@ from speakerlab.utils.utils import parse_config, get_logger
 from DER import DER
 
 
-def main(args):
+def main(args): 
     logger = get_logger()
     sys_rttm_dir = os.path.join(args.exp_dir, 'rttm')
     result_dir = os.path.join(args.exp_dir, 'result')

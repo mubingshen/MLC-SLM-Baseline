@@ -65,3 +65,53 @@ pip install -r requirements.txt
 | Vietnamese         | 23.02                       | 18.22         | 19.66          |
 | Avg.               | 15.36                       | 19.82         | 19.74          |
 
+## Task II: Multilingual Conversational Speech Diarization and Recognition
+**Baseline**: 3D-Speaker Diarization + Task I ASR-LLM model
+
+**Training steps**:
+* Step 1: Finetune the pyannote-segmetation module with `./examples/mlcslm/sdasr/finetune_sd.sh`
+* Step 2: Load the segmentation module in the first step, and infer dev-set with `./examples/mlcslm/sdasr/infer_sd.sh`
+
+**Evaluation matrix**: Diarization Error Rate (DER)
+
+| LID                | Vanilla 3D-Speaker | Finetuned 3D-Speaker |
+|--------------------|--------------------|----------------------|
+| English-American   | 20.18              | 22.37                |
+| English-Australian | 13.76              | 14.00                |
+| English-British    | 18.85              | 19.52                |
+| English-Filipino   | 13.19              | 12.67                |
+| English-Indian     | 8.19               | 8.03                 |
+| French             | 22.62              | 23.50                |
+| German             | 22.33              | 24.17                |
+| Italian            | 10.64              | 11.55                |
+| Japanese           | 26.46              | 26.32                |
+| Korean             | 23.25              | 25.45                |
+| Portuguese         | 17.60              | 17.99                |
+| Russian            | 11.37              | 12.15                |
+| Spanish            | 12.92              | 13.44                |
+| Thai               | 10.90              | 11.32                |
+| Vietnamese         | 14.64              | 15.30                |
+| Avg.               | 16.44              | 17.16                |
+
+Time-Constrained minimum-Permutation Word Error Rate (tcpWER) with collar = 5
+
+| LID                | Vanilla 3D-Speaker + Baseline-Llama | Finetuned 3D-Speaker + Baseline-Llama |
+|--------------------|-------------------------------------|---------------------------------------|
+| English-American   | 53.73                               | 70.33                                 |
+| English-Australian | 52.63                               | 60.77                                 |
+| English-British    | 71.92                               | 77.17                                 |
+| English-Filipino   | 50.37                               | 58.87                                 |
+| English-Indian     | 70.72                               | 69.19                                 |
+| French             | 96.04                               | 104.54                                |
+| German             | 86.74                               | 95.17                                 |
+| Italian            | 83.31                               | 84.01                                 |
+| Japanese           | 159.44                              | 382.85                                |
+| Korean             | 72.19                               | 91.62                                 |
+| Portuguese         | 118.84                              | 106.89                                |
+| Russian            | 69.21                               | 84.53                                 |
+| Spanish            | 75.61                               | 82.25                                 |
+| Thai               | 149.24                              | 169.85                                |
+| Vietnamese         | 82.80                               | 91.96                                 |
+| Avg.               | 78.34                               | 87.41                                 |
+
+

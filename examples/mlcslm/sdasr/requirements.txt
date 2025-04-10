@@ -15,3 +15,4 @@ addict
 datasets==3.0
 simplejson
 numpy==1.26.4
+meeteval
