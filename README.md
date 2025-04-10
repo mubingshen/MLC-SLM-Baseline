@@ -72,7 +72,7 @@ pip install -r requirements.txt
 
 ![task1_fig](./figs/task2.png)
 
-**Baseline**: 3D-Speaker Diarization + Task I ASR-LLM model
+**Baseline**: 3D-Speaker Diarization + Task I pre-trained SLM model
 
 **Training steps**:
 * Step 1: Finetune the pyannote-segmetation module with `./examples/mlcslm/sdasr/finetune_sd.sh`
@@ -121,3 +121,5 @@ Time-Constrained minimum-Permutation Word Error Rate (tcpWER) with collar = 5
 | Avg.               | 78.34                                   | 87.41                                  |
 
 
+## Contact US
+* Bingshen Mu: `bsmu@mail.nwpu.edu.cn`.
