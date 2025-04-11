@@ -20,6 +20,7 @@ import logging
 import os
 import torch
 import yaml
+import gc
 
 import torch.distributed as dist
 
@@ -191,6 +192,8 @@ def main():
         save_model(model, info_dict=info_dict)
 
         final_epoch = epoch
+        gc.collect()
+        torch.cuda.empty_cache()
 
     if final_epoch is not None and rank == 0:
         final_model_path = os.path.join(args.model_dir, 'final.pt')
