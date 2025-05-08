@@ -172,10 +172,14 @@ if [ ${stage} -le 11 ] && [ ${stop_stage} -ge 11 ]; then
   log " Generate hyp.stm using hyp rttms and hyp transcripts "
   python local/generate_hyp_stm.py --rttm_dir $rttm_dir --text $asr_decode_dir/$decode_mode/text --out_file $asr_decode_dir/$decode_mode/hyp.stm
 
-  meeteval-wer tcpwer -r $asr_decode_dir/$decode_mode/ref.stm -h $asr_decode_dir/$decode_mode/hyp.stm --collar 5
+  log "Add spaces between Japanese/Korean/Thai characters"
+  python local/add_space_between_chars_sdasr.py --input $asr_decode_dir/$decode_mode/ref.stm --output $asr_decode_dir/$decode_mode/ref_space.stm
+  python local/add_space_between_chars_sdasr.py --input $asr_decode_dir/$decode_mode/hyp.stm --output $asr_decode_dir/$decode_mode/hyp_space.stm
+
+  meeteval-wer tcpwer -r $asr_decode_dir/$decode_mode/ref_space.stm -h $asr_decode_dir/$decode_mode/hyp_space.stm --collar 5
   for lang in American Australian British Filipino Indian French German Italian Japanese Korean Portuguese Russian Spanish Thai Vietnamese; do
-    grep $lang $asr_decode_dir/$decode_mode/ref.stm > $asr_decode_dir/$decode_mode/ref$lang.stm
-    grep $lang $asr_decode_dir/$decode_mode/hyp.stm > $asr_decode_dir/$decode_mode/hyp$lang.stm
-    meeteval-wer tcpwer -r $asr_decode_dir/$decode_mode/ref$lang.stm -h $asr_decode_dir/$decode_mode/hyp$lang.stm --collar 5
+    grep $lang $asr_decode_dir/$decode_mode/ref_space.stm > $asr_decode_dir/$decode_mode/ref_space_$lang.stm
+    grep $lang $asr_decode_dir/$decode_mode/hyp_space.stm > $asr_decode_dir/$decode_mode/hyp_space_$lang.stm
+    meeteval-wer tcpwer -r $asr_decode_dir/$decode_mode/ref_space_$lang.stm -h $asr_decode_dir/$decode_mode/hyp_space_$lang.stm --collar 5
   done
 fi

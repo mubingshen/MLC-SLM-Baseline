@@ -1,0 +1,157 @@
+{
+  "Spanish_2085_003_phone": {
+    "error_rate": 0.6797451374916164,
+    "errors": 6081,
+    "length": 8946,
+    "insertions": 2280,
+    "deletions": 3072,
+    "substitutions": 729,
+    "reference_self_overlap": {
+      "overlap_rate": 2.853277888437405217675143470E-7,
+      "overlap_time": 0.0017,
+      "total_time": 5958.0597
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 5958.7400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Spanish_5139_002_phone": {
+    "error_rate": 0.9218697829716194,
+    "errors": 2761,
+    "length": 2995,
+    "insertions": 1953,
+    "deletions": 384,
+    "substitutions": 424,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2513.7282
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2513.0950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Spanish_5075_004_phone": {
+    "error_rate": 0.6012558869701727,
+    "errors": 1915,
+    "length": 3185,
+    "insertions": 346,
+    "deletions": 1463,
+    "substitutions": 106,
+    "reference_self_overlap": {
+      "overlap_rate": 1.176443091761463143841814521E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2550.0596
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2550.6250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Spanish_4013_002_phone": {
+    "error_rate": 0.8806251684182161,
+    "errors": 3268,
+    "length": 3711,
+    "insertions": 1097,
+    "deletions": 1959,
+    "substitutions": 212,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3634.8017
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3620.2000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Spanish_5094_002_phone": {
+    "error_rate": 0.8140032068412614,
+    "errors": 3046,
+    "length": 3742,
+    "insertions": 1174,
+    "deletions": 1494,
+    "substitutions": 378,
+    "reference_self_overlap": {
+      "overlap_rate": 4.527636425197251625905110537E-7,
+      "overlap_time": 0.0011,
+      "total_time": 2429.5237
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2455.5650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  }
+}

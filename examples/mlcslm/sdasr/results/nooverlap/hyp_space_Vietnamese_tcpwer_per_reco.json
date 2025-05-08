@@ -1,0 +1,250 @@
+{
+  "Vietnamese_0318_001_phone": {
+    "error_rate": 1.5769971126082771,
+    "errors": 3277,
+    "length": 2078,
+    "insertions": 2113,
+    "deletions": 301,
+    "substitutions": 863,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2492.6074
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2494.0850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Vietnamese_0257_009_phone": {
+    "error_rate": 0.968785151856018,
+    "errors": 3445,
+    "length": 3556,
+    "insertions": 72,
+    "deletions": 3318,
+    "substitutions": 55,
+    "reference_self_overlap": {
+      "overlap_rate": 4.472709733605967355145285073E-7,
+      "overlap_time": 0.0008,
+      "total_time": 1788.6249
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1736.8700
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0263_009_phone": {
+    "error_rate": 0.905422446406053,
+    "errors": 2872,
+    "length": 3172,
+    "insertions": 195,
+    "deletions": 2634,
+    "substitutions": 43,
+    "reference_self_overlap": {
+      "overlap_rate": 7.040497210744556950988120244E-7,
+      "overlap_time": 0.0013,
+      "total_time": 1846.4605
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1280.3600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0537_002_phone": {
+    "error_rate": 0.7639360155113912,
+    "errors": 3152,
+    "length": 4126,
+    "insertions": 675,
+    "deletions": 2071,
+    "substitutions": 406,
+    "reference_self_overlap": {
+      "overlap_rate": 1.238938601300266062064629232E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2421.4275
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2421.0650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0055_006_phone": {
+    "error_rate": 0.4736320871502847,
+    "errors": 1913,
+    "length": 4039,
+    "insertions": 899,
+    "deletions": 439,
+    "substitutions": 575,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2631.7751
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2646.8550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0593_001_phone": {
+    "error_rate": 0.5329324169530355,
+    "errors": 1861,
+    "length": 3492,
+    "insertions": 747,
+    "deletions": 299,
+    "substitutions": 815,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2039.0987
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2040.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0297_001_phone": {
+    "error_rate": 0.9770330442934145,
+    "errors": 4169,
+    "length": 4267,
+    "insertions": 351,
+    "deletions": 3736,
+    "substitutions": 82,
+    "reference_self_overlap": {
+      "overlap_rate": 9.202494612239485879832304941E-7,
+      "overlap_time": 0.0023,
+      "total_time": 2499.3223
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2499.4950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Vietnamese_0622_003_phone": {
+    "error_rate": 0.7634766807995155,
+    "errors": 2521,
+    "length": 3302,
+    "insertions": 1358,
+    "deletions": 521,
+    "substitutions": 642,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.3515
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.5800
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  }
+}

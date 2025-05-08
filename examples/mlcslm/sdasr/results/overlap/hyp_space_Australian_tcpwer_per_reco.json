@@ -1,0 +1,188 @@
+{
+  "Australian_1118_010_phone": {
+    "error_rate": 0.7460192647926086,
+    "errors": 3795,
+    "length": 5087,
+    "insertions": 1901,
+    "deletions": 1269,
+    "substitutions": 625,
+    "reference_self_overlap": {
+      "overlap_rate": 5.541667375769187047695478943E-8,
+      "overlap_time": 0.0002000000003,
+      "total_time": 3609.022099999999900
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3610.0300
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1114_016_phone": {
+    "error_rate": 0.3790240596407997,
+    "errors": 2237,
+    "length": 5902,
+    "insertions": 1010,
+    "deletions": 682,
+    "substitutions": 545,
+    "reference_self_overlap": {
+      "overlap_rate": 2.684132002175650026980894778E-8,
+      "overlap_time": 0.0001000000004,
+      "total_time": 3725.599200000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3725.6230
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1025_011_phone": {
+    "error_rate": 0.7214260121820136,
+    "errors": 4027,
+    "length": 5582,
+    "insertions": 559,
+    "deletions": 3351,
+    "substitutions": 117,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 3711.422200000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3712.2240
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1127_015_phone": {
+    "error_rate": 0.539874976321273,
+    "errors": 2850,
+    "length": 5279,
+    "insertions": 642,
+    "deletions": 1943,
+    "substitutions": 265,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 3937.402499999999700
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3937.9950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1141_006_phone": {
+    "error_rate": 0.7305921052631579,
+    "errors": 2221,
+    "length": 3040,
+    "insertions": 924,
+    "deletions": 1004,
+    "substitutions": 293,
+    "reference_self_overlap": {
+      "overlap_rate": 5.390903292747558500330489326E-8,
+      "overlap_time": 0.0001,
+      "total_time": 1854.97670000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1856.1430
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1617_014_phone": {
+    "error_rate": 0.6060606060606061,
+    "errors": 1460,
+    "length": 2409,
+    "insertions": 516,
+    "deletions": 693,
+    "substitutions": 251,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1807.897100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1809.3150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

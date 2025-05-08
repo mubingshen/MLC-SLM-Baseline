@@ -1,0 +1,188 @@
+{
+  "Indian_10694_001_phone": {
+    "error_rate": 1.014010989010989,
+    "errors": 3691,
+    "length": 3640,
+    "insertions": 1294,
+    "deletions": 2235,
+    "substitutions": 162,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2806.0747
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2803.1350
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Indian_00205_002_phone": {
+    "error_rate": 0.7806702573309395,
+    "errors": 2609,
+    "length": 3342,
+    "insertions": 610,
+    "deletions": 1856,
+    "substitutions": 143,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2703.6196
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2704.1250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Indian_00126_002_phone": {
+    "error_rate": 0.5728209412419939,
+    "errors": 2057,
+    "length": 3591,
+    "insertions": 997,
+    "deletions": 580,
+    "substitutions": 480,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3625.8062
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3626.3650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00700_002_phone": {
+    "error_rate": 0.8292263610315186,
+    "errors": 2894,
+    "length": 3490,
+    "insertions": 806,
+    "deletions": 1803,
+    "substitutions": 285,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2460.8994
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.5100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00880_004_phone": {
+    "error_rate": 0.5557251908396946,
+    "errors": 1456,
+    "length": 2620,
+    "insertions": 144,
+    "deletions": 1151,
+    "substitutions": 161,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2613.7979
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2615.0450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00235_001_phone": {
+    "error_rate": 0.473480947476828,
+    "errors": 1839,
+    "length": 3884,
+    "insertions": 118,
+    "deletions": 1613,
+    "substitutions": 108,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3527.9350
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3528.1550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

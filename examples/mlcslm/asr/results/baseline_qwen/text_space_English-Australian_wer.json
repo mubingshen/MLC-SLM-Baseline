@@ -1,0 +1,10 @@
+{
+  "error_rate": 0.11192552957560654,
+  "errors": 3054,
+  "length": 27286,
+  "insertions": 557,
+  "deletions": 595,
+  "substitutions": 1902,
+  "reference_self_overlap": null,
+  "hypothesis_self_overlap": null
+}

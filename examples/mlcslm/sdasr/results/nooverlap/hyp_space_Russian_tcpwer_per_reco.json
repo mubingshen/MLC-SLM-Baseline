@@ -1,0 +1,157 @@
+{
+  "Russian_4027_006_phone": {
+    "error_rate": 0.5920900692840647,
+    "errors": 2051,
+    "length": 3464,
+    "insertions": 50,
+    "deletions": 1918,
+    "substitutions": 83,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3164.2497
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3164.5600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Russian_4112_001_phone": {
+    "error_rate": 0.583648393194707,
+    "errors": 1235,
+    "length": 2116,
+    "insertions": 443,
+    "deletions": 266,
+    "substitutions": 526,
+    "reference_self_overlap": {
+      "overlap_rate": 3.939301819417756221743141843E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2538.5209
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2538.6250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Russian_4104_001_phone": {
+    "error_rate": 0.7887245325146526,
+    "errors": 2826,
+    "length": 3583,
+    "insertions": 191,
+    "deletions": 2491,
+    "substitutions": 144,
+    "reference_self_overlap": {
+      "overlap_rate": 1.075202859867574790170129886E-7,
+      "overlap_time": 0.0004,
+      "total_time": 3720.2282
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3720.2950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Russian_4130_004_phone": {
+    "error_rate": 0.7514693534844669,
+    "errors": 2685,
+    "length": 3573,
+    "insertions": 61,
+    "deletions": 2520,
+    "substitutions": 104,
+    "reference_self_overlap": {
+      "overlap_rate": 1.646155658613435406690163161E-7,
+      "overlap_time": 0.0006,
+      "total_time": 3644.8558
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3629.6100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Russian_4098_001_phone": {
+    "error_rate": 0.6967882416984214,
+    "errors": 2560,
+    "length": 3674,
+    "insertions": 991,
+    "deletions": 1034,
+    "substitutions": 535,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3670.5511
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3668.0050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  }
+}

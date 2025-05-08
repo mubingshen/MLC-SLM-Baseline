@@ -1,0 +1,192 @@
+{
+  "Italian_0085_002_phone": {
+    "error_rate": 0.71897193101116,
+    "errors": 2126,
+    "length": 2957,
+    "insertions": 635,
+    "deletions": 1122,
+    "substitutions": 369,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3011.1242
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3011.5950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0161_001_phone": {
+    "error_rate": 0.8479692645444566,
+    "errors": 3090,
+    "length": 3644,
+    "insertions": 8,
+    "deletions": 3019,
+    "substitutions": 63,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2645.7211
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2651.6500
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 1,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ],
+      [
+        null,
+        "3"
+      ]
+    ]
+  },
+  "Italian_0204_001_phone": {
+    "error_rate": 1.0292698616918623,
+    "errors": 3200,
+    "length": 3109,
+    "insertions": 1066,
+    "deletions": 1780,
+    "substitutions": 354,
+    "reference_self_overlap": {
+      "overlap_rate": 1.557469859064552453248648506E-7,
+      "overlap_time": 0.0004,
+      "total_time": 2568.2680
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2587.6100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0190_003_phone": {
+    "error_rate": 0.8417699115044248,
+    "errors": 2378,
+    "length": 2825,
+    "insertions": 402,
+    "deletions": 1884,
+    "substitutions": 92,
+    "reference_self_overlap": {
+      "overlap_rate": 3.748783519747841825327681167E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2667.5320
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2639.6400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0103_003_phone": {
+    "error_rate": 0.6685610953242056,
+    "errors": 2588,
+    "length": 3871,
+    "insertions": 636,
+    "deletions": 1275,
+    "substitutions": 677,
+    "reference_self_overlap": {
+      "overlap_rate": 4.057209740825036035122615573E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2464.7481
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2442.3050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0100_004_phone": {
+    "error_rate": 0.9160127869805289,
+    "errors": 3152,
+    "length": 3441,
+    "insertions": 1418,
+    "deletions": 1370,
+    "substitutions": 364,
+    "reference_self_overlap": {
+      "overlap_rate": 3.240481547223651004544418917E-8,
+      "overlap_time": 0.0001,
+      "total_time": 3085.9611
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3086.8050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

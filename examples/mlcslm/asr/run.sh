@@ -285,11 +285,15 @@ if [ ${stage} -le 8 ] && [ ${stop_stage} -ge 8 ]; then
     --dtype bf16 \
     --result_dir $step2_dir 
 
+  # Add spaces between Japanese/Korean/Thai characters
+  python local/add_space_between_chars_asr.py --input $step2_dir/$decode_mode/text --output $step2_dir/$decode_mode/text_space
+  python local/add_space_between_chars_asr.py --input $dev_data_dir/text_tn --output $dev_data_dir/text_tn_space
+
+  # Use meeteval to calculate WER/CER
   for lang in English-American English-Australian English-British English-Filipino English-Indian French German Italian Japanese Korean Portuguese Russian Spanish Thai Vietnamese; do
-    grep $lang $step2_dir/$decode_mode/text > $step2_dir/$decode_mode/text_$lang
-    python tools/compute-wer.py --char=1 --v=1 \
-        $dev_data_dir/text_tn $step2_dir/$decode_mode/text_$lang > $step2_dir/$decode_mode/wer_$lang
+    grep $lang $step2_dir/$decode_mode/text_space > $step2_dir/$decode_mode/text_space_$lang
+    grep $lang $dev_data_dir/text_tn_space > $dev_data_dir/text_tn_space_$lang
+    meeteval-wer wer -r $dev_data_dir/text_tn_space_$lang -h $step2_dir/$decode_mode/text_space_$lang
   done
-  python tools/compute-wer.py --char=1 --v=1 \
-        $dev_data_dir/text_tn $step2_dir/$decode_mode/text > $step2_dir/$decode_mode/wer
+  meeteval-wer wer -r $dev_data_dir/text_tn_space -h $step2_dir/$decode_mode/text_space
 fi

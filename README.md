@@ -15,6 +15,11 @@ The challenge consists of two tasks, both of which require participants to explo
 
 This project provides baseline systems for the two tasks mentioned above!
 
+## Update
+* We calculate CER/tcpCER for Japanese, Korean and Thai, and WER/tcpWER for other languages in two tasks.
+* In Task I, we use the meeteval toolkit to calculate the error rate, avoiding additional errors caused by the different toolkits for calculating the error rate in the two tasks.
+* The code can refer to the last stage in `./examples/mlcslm/asr/run.sh` and `./examples/mlcslm/sdasr/infer_sd.sh`.
+
 ## Setup
 * Clone the repo
 ```shell
@@ -51,22 +56,22 @@ pip install -r requirements.txt
 
 | LID                | Vanilla Whisper-large-v3    | Baseline-Qwen | Baseline-Llama |
 |--------------------|-----------------------------|---------------|----------------|
-| English-American   | 14.14                       | 14.04         | 17.45          |
-| English-Australian | 11.72                       | 11.60         | 13.77          |
-| English-British    | 10.08                       | 11.37         | 12.09          |
-| English-Filipino   | 9.20                        | 8.15          | 8.43           |
-| English-Indian     | 13.96                       | 17.73         | 16.22          |
-| French             | 26.72                       | 25.33         | 26.84          |
-| German             | 20.53                       | 36.64         | 34.06          |
-| Italian            | 17.94                       | 24.22         | 24.91          |
-| Japanese           | 21.64                       | 34.88         | 34.06          |
-| Korean             | 13.80                       | 20.60         | 22.31          |
-| Portuguese         | 20.82                       | 36.09         | 33.82          |
-| Russian            | 7.36                        | 7.51          | 7.97           |
-| Spanish            | 12.24                       | 15.00         | 17.03          |
-| Thai               | 14.49                       | 23.10         | 19.98          |
-| Vietnamese         | 23.02                       | 18.22         | 19.66          |
-| Avg.               | 15.36                       | 19.82         | 19.74          |
+| English-American   | 14.14                       | 13.83         | 16.87          |
+| English-Australian | 11.72                       | 11.19         | 13.32          |
+| English-British    | 10.08                       | 11.00         | 10.97          |
+| English-Filipino   | 9.20                        | 8.06          | 8.26           |
+| English-Indian     | 13.96                       | 16.87         | 15.67          |
+| French             | 26.72                       | 25.69         | 26.43          |
+| German             | 20.53                       | 33.95         | 32.37          |
+| Italian            | 17.94                       | 23.47         | 24.15          |
+| Japanese           | 21.64                       | 34.74         | 33.82          |
+| Korean             | 13.80                       | 20.77         | 22.56          |
+| Portuguese         | 20.82                       | 34.02         | 33.91          |
+| Russian            | 7.36                        | 18.25         | 19.07          |
+| Spanish            | 12.24                       | 14.31         | 16.41          |
+| Thai               | 14.49                       | 21.67         | 19.62          |
+| Vietnamese         | 23.02                       | 21.50         | 22.92          |
+| Avg.               | 15.36                       | 21.49         | 21.56          |
 
 ## Task II: Multilingual Conversational Speech Diarization and Recognition
 
@@ -99,7 +104,7 @@ pip install -r requirements.txt
 | Vietnamese         | 14.64                  | 15.30                 |
 | Avg.               | 16.44                  | 17.16                 |
 
-Time-Constrained minimum-Permutation Word Error Rate (tcpWER) with collar = 5
+Time-Constrained minimum-Permutation Word Error Rate (tcpWER) or Character Error Rate (tcpCER) with collar = 5
 
 | LID                | w/o overlap 3D-Speaker + Baseline-Llama | w/ overlap 3D-Speaker + Baseline-Llama |
 |--------------------|-----------------------------------------|----------------------------------------|
@@ -111,14 +116,14 @@ Time-Constrained minimum-Permutation Word Error Rate (tcpWER) with collar = 5
 | French             | 96.04                                   | 104.54                                 |
 | German             | 86.74                                   | 95.17                                  |
 | Italian            | 83.31                                   | 84.01                                  |
-| Japanese           | 159.44                                  | 382.85                                 |
-| Korean             | 72.19                                   | 91.62                                  |
+| Japanese           | 71.30                                   | 88.63                                  |
+| Korean             | 59.55                                   | 78.68                                  |
 | Portuguese         | 118.84                                  | 106.89                                 |
 | Russian            | 69.21                                   | 84.53                                  |
 | Spanish            | 75.61                                   | 82.25                                  |
-| Thai               | 149.24                                  | 169.85                                 |
+| Thai               | 83.56                                   | 78.02                                  |
 | Vietnamese         | 82.80                                   | 91.96                                  |
-| Avg.               | 78.34                                   | 87.41                                  |
+| Avg.               | 76.12                                   | 81.85                                  |
 
 
 ## Contact US

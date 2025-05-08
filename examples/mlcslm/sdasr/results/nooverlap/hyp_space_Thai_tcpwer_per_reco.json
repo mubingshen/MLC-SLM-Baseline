@@ -1,0 +1,157 @@
+{
+  "Thai_0288_003_phone": {
+    "error_rate": 0.7376323475721066,
+    "errors": 16163,
+    "length": 21912,
+    "insertions": 4881,
+    "deletions": 9280,
+    "substitutions": 2002,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3581.0687
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3548.2450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0313_002_phone": {
+    "error_rate": 1.0994230769230768,
+    "errors": 17151,
+    "length": 15600,
+    "insertions": 8698,
+    "deletions": 5940,
+    "substitutions": 2513,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3219.2119
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3219.5250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Thai_0317_004_phone": {
+    "error_rate": 0.8680500788643533,
+    "errors": 17611,
+    "length": 20288,
+    "insertions": 2666,
+    "deletions": 14361,
+    "substitutions": 584,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3619.4147
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3619.9550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0303_001_phone": {
+    "error_rate": 0.6756068653702647,
+    "errors": 15391,
+    "length": 22781,
+    "insertions": 4309,
+    "deletions": 9244,
+    "substitutions": 1838,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3793.8618
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3791.6950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0318_002_phone": {
+    "error_rate": 0.9098684210526315,
+    "errors": 12447,
+    "length": 13680,
+    "insertions": 1187,
+    "deletions": 10547,
+    "substitutions": 713,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2180.7658
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2180.9150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "British_0497_004_phone": {
+    "error_rate": 0.996218805142425,
+    "errors": 3952,
+    "length": 3967,
+    "insertions": 966,
+    "deletions": 2724,
+    "substitutions": 262,
+    "reference_self_overlap": {
+      "overlap_rate": 3.418096537915970813420499808E-8,
+      "overlap_time": 0.0000999999998,
+      "total_time": 2925.604900000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2926.4230
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1226_008_phone": {
+    "error_rate": 0.6298882681564246,
+    "errors": 2255,
+    "length": 3580,
+    "insertions": 868,
+    "deletions": 1176,
+    "substitutions": 211,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2542.344300000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2543.0400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "British_1288_013_phone": {
+    "error_rate": 1.0597883597883597,
+    "errors": 2003,
+    "length": 1890,
+    "insertions": 520,
+    "deletions": 1413,
+    "substitutions": 70,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1790.805200000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 909.3740
+    },
+    "missed_speaker": 1,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        null
+      ]
+    ]
+  },
+  "British_1233_031_phone": {
+    "error_rate": 0.6434599156118144,
+    "errors": 1830,
+    "length": 2844,
+    "insertions": 314,
+    "deletions": 1388,
+    "substitutions": 128,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1838.172400000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1836.2990
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "British_7107_002_phone": {
+    "error_rate": 0.955564451561249,
+    "errors": 2387,
+    "length": 2498,
+    "insertions": 44,
+    "deletions": 2330,
+    "substitutions": 13,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1809.140000000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1814.4960
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1283_004_phone": {
+    "error_rate": 0.46811224489795916,
+    "errors": 1101,
+    "length": 2352,
+    "insertions": 749,
+    "deletions": 216,
+    "substitutions": 136,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+14,
+      "overlap_time": 0,
+      "total_time": 1883.14450000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1867.2300
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1285_015_phone": {
+    "error_rate": 0.8230316409124356,
+    "errors": 2237,
+    "length": 2718,
+    "insertions": 736,
+    "deletions": 1298,
+    "substitutions": 203,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1955.392399999999800
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1956.9720
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1284_013_phone": {
+    "error_rate": 0.8772707133362871,
+    "errors": 1980,
+    "length": 2257,
+    "insertions": 526,
+    "deletions": 1225,
+    "substitutions": 229,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1873.103900000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1834.3410
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1137_019_phone": {
+    "error_rate": 0.49474535165723527,
+    "errors": 1224,
+    "length": 2474,
+    "insertions": 47,
+    "deletions": 1138,
+    "substitutions": 39,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1828.290600000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1828.6200
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

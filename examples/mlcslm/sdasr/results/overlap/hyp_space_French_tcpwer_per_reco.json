@@ -1,0 +1,250 @@
+{
+  "French_0345_002_phone": {
+    "error_rate": 1.1281840591618735,
+    "errors": 2746,
+    "length": 2434,
+    "insertions": 1529,
+    "deletions": 809,
+    "substitutions": 408,
+    "reference_self_overlap": {
+      "overlap_rate": 7.800024531077150237637497370E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2564.09450000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2576.3510
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_2012_001_phone": {
+    "error_rate": 1.1675490501401433,
+    "errors": 3749,
+    "length": 3211,
+    "insertions": 2285,
+    "deletions": 687,
+    "substitutions": 777,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2520.820699999999900
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2529.1010
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1221_004_phone": {
+    "error_rate": 1.0598260869565217,
+    "errors": 3047,
+    "length": 2875,
+    "insertions": 1254,
+    "deletions": 1580,
+    "substitutions": 213,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2396.408600000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2394.3890
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1255_004_phone": {
+    "error_rate": 0.8833857442348009,
+    "errors": 3371,
+    "length": 3816,
+    "insertions": 613,
+    "deletions": 2493,
+    "substitutions": 265,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+16,
+      "overlap_time": 0,
+      "total_time": 2588.7937000000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2584.1640
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_0311_005_phone": {
+    "error_rate": 1.6014174822814715,
+    "errors": 4745,
+    "length": 2963,
+    "insertions": 3167,
+    "deletions": 1130,
+    "substitutions": 448,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2645.886900000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2651.0400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1166_005_phone": {
+    "error_rate": 0.8751128498344869,
+    "errors": 2908,
+    "length": 3323,
+    "insertions": 1228,
+    "deletions": 1363,
+    "substitutions": 317,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2513.813600000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2515.9390
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "French_1205_003_phone": {
+    "error_rate": 0.8450087565674256,
+    "errors": 1930,
+    "length": 2284,
+    "insertions": 58,
+    "deletions": 1804,
+    "substitutions": 68,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1872.376800000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1740.8540
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1102_001_phone": {
+    "error_rate": 0.8448275862068966,
+    "errors": 2695,
+    "length": 3190,
+    "insertions": 939,
+    "deletions": 1479,
+    "substitutions": 277,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2544.096700000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2547.0390
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

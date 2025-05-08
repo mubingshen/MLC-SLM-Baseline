@@ -1,0 +1,250 @@
+{
+  "Korean_0263_001": {
+    "error_rate": 0.5901835594573025,
+    "errors": 1479,
+    "length": 2506,
+    "insertions": 625,
+    "deletions": 548,
+    "substitutions": 306,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1298.1302
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1298.7250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Korean_0220_003": {
+    "error_rate": 0.5458842063804648,
+    "errors": 2772,
+    "length": 5078,
+    "insertions": 753,
+    "deletions": 1221,
+    "substitutions": 798,
+    "reference_self_overlap": {
+      "overlap_rate": 7.625400957879992126010970893E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2622.8129
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2622.7600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1008_001": {
+    "error_rate": 0.5851511672407195,
+    "errors": 3058,
+    "length": 5226,
+    "insertions": 1215,
+    "deletions": 1204,
+    "substitutions": 639,
+    "reference_self_overlap": {
+      "overlap_rate": 1.247350834718862921631608070E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2405.0972
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2406.3000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Korean_0397_001": {
+    "error_rate": 0.40751614797416325,
+    "errors": 1388,
+    "length": 3406,
+    "insertions": 575,
+    "deletions": 571,
+    "substitutions": 242,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2405.0243
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2425.2200
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1116_004": {
+    "error_rate": 0.4542671948145481,
+    "errors": 2523,
+    "length": 5554,
+    "insertions": 345,
+    "deletions": 1996,
+    "substitutions": 182,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2397.8147
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2397.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1139_001": {
+    "error_rate": 0.8568,
+    "errors": 4284,
+    "length": 5000,
+    "insertions": 1647,
+    "deletions": 1812,
+    "substitutions": 825,
+    "reference_self_overlap": {
+      "overlap_rate": 8.178767575864816749396263824E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2445.3562
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2446.2850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1138_004": {
+    "error_rate": 0.7613740179060844,
+    "errors": 4167,
+    "length": 5473,
+    "insertions": 1474,
+    "deletions": 2281,
+    "substitutions": 412,
+    "reference_self_overlap": {
+      "overlap_rate": 2.513048059656745278579544819E-7,
+      "overlap_time": 0.0006,
+      "total_time": 2387.5389
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2387.7800
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_0246_006": {
+    "error_rate": 0.49172002649591523,
+    "errors": 2227,
+    "length": 4529,
+    "insertions": 1046,
+    "deletions": 338,
+    "substitutions": 843,
+    "reference_self_overlap": {
+      "overlap_rate": 8.602116499151917334348612470E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2325.0092
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2329.9750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

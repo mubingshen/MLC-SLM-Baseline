@@ -1,0 +1,22 @@
+{
+  "error_rate": 0.6077145682992051,
+  "errors": 16590,
+  "length": 27299,
+  "insertions": 5552,
+  "deletions": 8942,
+  "substitutions": 2096,
+  "reference_self_overlap": {
+    "overlap_rate": 2.145195432612927772378878380E-8,
+    "overlap_time": 0.0004000000007,
+    "total_time": 18646.319799999999600
+  },
+  "hypothesis_self_overlap": {
+    "overlap_rate": 0E+4,
+    "overlap_time": 0,
+    "total_time": 18651.3300
+  },
+  "missed_speaker": 0,
+  "falarm_speaker": 0,
+  "scored_speaker": 12,
+  "assignment": null
+}

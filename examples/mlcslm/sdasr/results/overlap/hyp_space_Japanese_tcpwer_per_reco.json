@@ -1,0 +1,343 @@
+{
+  "Japanese_0315_004_phone": {
+    "error_rate": 1.3417692658458733,
+    "errors": 5885,
+    "length": 4386,
+    "insertions": 3549,
+    "deletions": 1530,
+    "substitutions": 806,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1929.280100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1929.9710
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0474_001_phone": {
+    "error_rate": 0.77367360644728,
+    "errors": 2304,
+    "length": 2978,
+    "insertions": 1446,
+    "deletions": 253,
+    "substitutions": 605,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1868.660799999999900
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1871.1950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0336_006_phone": {
+    "error_rate": 1.2200113700966457,
+    "errors": 4292,
+    "length": 3518,
+    "insertions": 3086,
+    "deletions": 638,
+    "substitutions": 568,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1938.579999999999900
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1949.7990
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0229_002_phone": {
+    "error_rate": 0.6274742676167855,
+    "errors": 1585,
+    "length": 2526,
+    "insertions": 1002,
+    "deletions": 172,
+    "substitutions": 411,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1965.310900000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1957.3760
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0495_004_phone": {
+    "error_rate": 0.5283808527334554,
+    "errors": 2020,
+    "length": 3823,
+    "insertions": 1014,
+    "deletions": 416,
+    "substitutions": 590,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1897.815000000000200
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1903.0900
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0263_002_phone": {
+    "error_rate": 0.8785614198972442,
+    "errors": 3762,
+    "length": 4282,
+    "insertions": 2047,
+    "deletions": 828,
+    "substitutions": 887,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1821.616100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1821.7690
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0203_005_phone": {
+    "error_rate": 1.1360733129686198,
+    "errors": 4091,
+    "length": 3601,
+    "insertions": 2522,
+    "deletions": 612,
+    "substitutions": 957,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1810.692800000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1811.6780
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0147_002_phone": {
+    "error_rate": 0.36077705827937095,
+    "errors": 1560,
+    "length": 4324,
+    "insertions": 679,
+    "deletions": 575,
+    "substitutions": 306,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1836.192800000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1835.8430
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0321_005_phone": {
+    "error_rate": 1.395496688741722,
+    "errors": 5268,
+    "length": 3775,
+    "insertions": 3477,
+    "deletions": 882,
+    "substitutions": 909,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1939.248500000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1940.7550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "Japanese_0177_004_phone": {
+    "error_rate": 0.6916839916839916,
+    "errors": 3327,
+    "length": 4810,
+    "insertions": 916,
+    "deletions": 2105,
+    "substitutions": 306,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+14,
+      "overlap_time": 0,
+      "total_time": 1882.64560000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1823.3550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0130_004_phone": {
+    "error_rate": 0.793444942230606,
+    "errors": 3365,
+    "length": 4241,
+    "insertions": 866,
+    "deletions": 2283,
+    "substitutions": 216,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 1811.148600000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1600.5040
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

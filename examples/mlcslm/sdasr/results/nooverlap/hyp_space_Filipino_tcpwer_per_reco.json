@@ -1,0 +1,219 @@
+{
+  "Filipino_00330_006_phone": {
+    "error_rate": 0.3314318311466058,
+    "errors": 581,
+    "length": 1753,
+    "insertions": 391,
+    "deletions": 112,
+    "substitutions": 78,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2051.8544
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2051.9100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_20004_001_phone": {
+    "error_rate": 0.48739760554505357,
+    "errors": 1547,
+    "length": 3174,
+    "insertions": 670,
+    "deletions": 678,
+    "substitutions": 199,
+    "reference_self_overlap": {
+      "overlap_rate": 1.340073276546834857476841691E-7,
+      "overlap_time": 0.0004,
+      "total_time": 2984.9114
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2985.4100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_10161_004_phone": {
+    "error_rate": 0.5945448973337419,
+    "errors": 1940,
+    "length": 3263,
+    "insertions": 82,
+    "deletions": 1737,
+    "substitutions": 121,
+    "reference_self_overlap": {
+      "overlap_rate": 2.983896507329245527735914815E-7,
+      "overlap_time": 0.0009,
+      "total_time": 3016.1904
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3017.0850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_00412_005_phone": {
+    "error_rate": 0.39766081871345027,
+    "errors": 1020,
+    "length": 2565,
+    "insertions": 107,
+    "deletions": 790,
+    "substitutions": 123,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2312.7532
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2312.7450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_00403_001_phone": {
+    "error_rate": 0.8489175495163519,
+    "errors": 1843,
+    "length": 2171,
+    "insertions": 787,
+    "deletions": 600,
+    "substitutions": 456,
+    "reference_self_overlap": {
+      "overlap_rate": 4.279357117315494234079807271E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2336.7996
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2336.7950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_00370_006_phone": {
+    "error_rate": 0.3986636971046771,
+    "errors": 716,
+    "length": 1796,
+    "insertions": 33,
+    "deletions": 634,
+    "substitutions": 49,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2137.8214
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2138.1000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_00365_001_phone": {
+    "error_rate": 0.41448382126348227,
+    "errors": 1076,
+    "length": 2596,
+    "insertions": 89,
+    "deletions": 908,
+    "substitutions": 79,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2083.6084
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2083.9950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  }
+}

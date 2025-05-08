@@ -1,0 +1,188 @@
+{
+  "Australian_1118_010_phone": {
+    "error_rate": 0.6805582858266168,
+    "errors": 3462,
+    "length": 5087,
+    "insertions": 1873,
+    "deletions": 945,
+    "substitutions": 644,
+    "reference_self_overlap": {
+      "overlap_rate": 5.541667367456685842960063891E-8,
+      "overlap_time": 0.0002,
+      "total_time": 3609.0221
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3609.9650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1114_016_phone": {
+    "error_rate": 0.36142735768903994,
+    "errors": 2127,
+    "length": 5885,
+    "insertions": 893,
+    "deletions": 757,
+    "substitutions": 477,
+    "reference_self_overlap": {
+      "overlap_rate": 2.684131991439122061224406533E-8,
+      "overlap_time": 0.0001,
+      "total_time": 3725.5992
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3725.2150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Australian_1025_011_phone": {
+    "error_rate": 0.6778137360661632,
+    "errors": 3770,
+    "length": 5562,
+    "insertions": 482,
+    "deletions": 3145,
+    "substitutions": 143,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3711.4222
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3711.8850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Australian_1127_015_phone": {
+    "error_rate": 0.47565614302015974,
+    "errors": 2501,
+    "length": 5258,
+    "insertions": 377,
+    "deletions": 1875,
+    "substitutions": 249,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3937.4025
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3937.9400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1141_006_phone": {
+    "error_rate": 0.37504137702747437,
+    "errors": 1133,
+    "length": 3021,
+    "insertions": 130,
+    "deletions": 794,
+    "substitutions": 209,
+    "reference_self_overlap": {
+      "overlap_rate": 5.407467842870232019304227602E-8,
+      "overlap_time": 0.0001,
+      "total_time": 1849.2944
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1854.8900
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1617_014_phone": {
+    "error_rate": 0.55375,
+    "errors": 1329,
+    "length": 2400,
+    "insertions": 517,
+    "deletions": 523,
+    "substitutions": 289,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1807.8971
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1808.2250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

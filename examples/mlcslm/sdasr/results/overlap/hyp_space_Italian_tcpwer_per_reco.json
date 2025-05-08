@@ -1,0 +1,192 @@
+{
+  "Italian_0085_002_phone": {
+    "error_rate": 0.5692618806875632,
+    "errors": 1689,
+    "length": 2967,
+    "insertions": 302,
+    "deletions": 1072,
+    "substitutions": 315,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 3011.124200000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3011.7260
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Italian_0161_001_phone": {
+    "error_rate": 0.8730853391684902,
+    "errors": 3192,
+    "length": 3656,
+    "insertions": 7,
+    "deletions": 3147,
+    "substitutions": 38,
+    "reference_self_overlap": {
+      "overlap_rate": 8.693282145272228429519649671E-17,
+      "overlap_time": 2.3E-13,
+      "total_time": 2645.721100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2651.9650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 1,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ],
+      [
+        null,
+        "0"
+      ]
+    ]
+  },
+  "Italian_0204_001_phone": {
+    "error_rate": 0.9942233632862645,
+    "errors": 3098,
+    "length": 3116,
+    "insertions": 487,
+    "deletions": 2420,
+    "substitutions": 191,
+    "reference_self_overlap": {
+      "overlap_rate": 1.557469859999034429330189061E-7,
+      "overlap_time": 0.00040000000024,
+      "total_time": 2568.267999999999900
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2587.6580
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Italian_0190_003_phone": {
+    "error_rate": 0.7805309734513274,
+    "errors": 2205,
+    "length": 2825,
+    "insertions": 110,
+    "deletions": 2002,
+    "substitutions": 93,
+    "reference_self_overlap": {
+      "overlap_rate": 3.748783520872476881252033715E-8,
+      "overlap_time": 0.00010000000003,
+      "total_time": 2667.532000000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2668.0000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Italian_0103_003_phone": {
+    "error_rate": 0.7909647779479326,
+    "errors": 3099,
+    "length": 3918,
+    "insertions": 497,
+    "deletions": 2076,
+    "substitutions": 526,
+    "reference_self_overlap": {
+      "overlap_rate": 4.057209740825036035122615573E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2464.748100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2464.5040
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Italian_0100_004_phone": {
+    "error_rate": 0.9994356659142212,
+    "errors": 3542,
+    "length": 3544,
+    "insertions": 1349,
+    "deletions": 1854,
+    "substitutions": 339,
+    "reference_self_overlap": {
+      "overlap_rate": 3.240481547547699159266784017E-8,
+      "overlap_time": 0.00010000000001,
+      "total_time": 3085.961100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3086.5000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

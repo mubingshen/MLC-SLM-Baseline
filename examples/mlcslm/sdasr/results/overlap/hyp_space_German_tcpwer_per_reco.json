@@ -1,0 +1,219 @@
+{
+  "German_0195_002_phone": {
+    "error_rate": 0.9661822247065399,
+    "errors": 3457,
+    "length": 3578,
+    "insertions": 1774,
+    "deletions": 807,
+    "substitutions": 876,
+    "reference_self_overlap": {
+      "overlap_rate": 4.103573379380897820671242860E-8,
+      "overlap_time": 0.00010000000020,
+      "total_time": 2436.900500000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2437.3010
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0285_004_phone": {
+    "error_rate": 0.7888322623532018,
+    "errors": 3560,
+    "length": 4513,
+    "insertions": 1151,
+    "deletions": 1570,
+    "substitutions": 839,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 3576.667300000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3536.6900
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "German_0215_021_phone": {
+    "error_rate": 1.2322991249005568,
+    "errors": 3098,
+    "length": 2514,
+    "insertions": 1520,
+    "deletions": 825,
+    "substitutions": 753,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2459.895100000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2466.0060
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  },
+  "German_0318_001_phone": {
+    "error_rate": 0.953921568627451,
+    "errors": 2919,
+    "length": 3060,
+    "insertions": 1156,
+    "deletions": 1520,
+    "substitutions": 243,
+    "reference_self_overlap": {
+      "overlap_rate": 4.168983579290857560756056845E-17,
+      "overlap_time": 1E-13,
+      "total_time": 2398.666200000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2440.4740
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0205_001_phone": {
+    "error_rate": 0.7882037533512064,
+    "errors": 2352,
+    "length": 2984,
+    "insertions": 1133,
+    "deletions": 849,
+    "substitutions": 370,
+    "reference_self_overlap": {
+      "overlap_rate": 8.199881625278857474413499367E-8,
+      "overlap_time": 0.00019999999997,
+      "total_time": 2439.059600000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2423.7840
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0213_001_phone": {
+    "error_rate": 0.780266147354755,
+    "errors": 2404,
+    "length": 3081,
+    "insertions": 595,
+    "deletions": 1601,
+    "substitutions": 208,
+    "reference_self_overlap": {
+      "overlap_rate": 8.183086747061402405131941022E-8,
+      "overlap_time": 0.00020000000002,
+      "total_time": 2444.065500000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2444.5400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0180_005_phone": {
+    "error_rate": 1.302879488091006,
+    "errors": 3665,
+    "length": 2813,
+    "insertions": 1899,
+    "deletions": 1551,
+    "substitutions": 215,
+    "reference_self_overlap": {
+      "overlap_rate": 4.148770771080163586031503691E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2410.35250000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2522.8570
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "0"
+      ]
+    ]
+  }
+}

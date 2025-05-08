@@ -1,0 +1,281 @@
+{
+  "American_0598_001": {
+    "error_rate": 0.4592973436161097,
+    "errors": 536,
+    "length": 1167,
+    "insertions": 104,
+    "deletions": 337,
+    "substitutions": 95,
+    "reference_self_overlap": {
+      "overlap_rate": 2.498733454480260193177910223E-17,
+      "overlap_time": 2E-14,
+      "total_time": 800.405500000000040
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 800.5280
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0517_007": {
+    "error_rate": 0.4498200719712115,
+    "errors": 1125,
+    "length": 2501,
+    "insertions": 301,
+    "deletions": 717,
+    "substitutions": 107,
+    "reference_self_overlap": {
+      "overlap_rate": 1.241871434431878902477787314E-7,
+      "overlap_time": 0.0003000000001,
+      "total_time": 2415.709000000000200
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2424.2910
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0571_002": {
+    "error_rate": 0.38747553816046965,
+    "errors": 990,
+    "length": 2555,
+    "insertions": 99,
+    "deletions": 754,
+    "substitutions": 137,
+    "reference_self_overlap": {
+      "overlap_rate": 2.891089320411045167199336107E-7,
+      "overlap_time": 0.00070000000012,
+      "total_time": 2421.232700000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2421.3540
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0660_003": {
+    "error_rate": 0.5361642557162856,
+    "errors": 1149,
+    "length": 2143,
+    "insertions": 604,
+    "deletions": 386,
+    "substitutions": 159,
+    "reference_self_overlap": {
+      "overlap_rate": 4.570717524492075587052674731E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2187.840300000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2207.6830
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0525_002": {
+    "error_rate": 0.9748995983935743,
+    "errors": 2913,
+    "length": 2988,
+    "insertions": 1817,
+    "deletions": 526,
+    "substitutions": 570,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+15,
+      "overlap_time": 0,
+      "total_time": 2786.260000000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2779.7120
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0588_002": {
+    "error_rate": 0.8991065591632164,
+    "errors": 4126,
+    "length": 4589,
+    "insertions": 110,
+    "deletions": 3907,
+    "substitutions": 109,
+    "reference_self_overlap": {
+      "overlap_rate": 3.165348302917501427086255649E-7,
+      "overlap_time": 0.001000000001206,
+      "total_time": 3159.210000000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3162.2180
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0640_003": {
+    "error_rate": 0.20943472956486375,
+    "errors": 515,
+    "length": 2459,
+    "insertions": 213,
+    "deletions": 108,
+    "substitutions": 194,
+    "reference_self_overlap": {
+      "overlap_rate": 4.207577822412698335225551206E-17,
+      "overlap_time": 1E-13,
+      "total_time": 2376.664300000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2389.3600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0707_001": {
+    "error_rate": 0.664630421502749,
+    "errors": 1088,
+    "length": 1637,
+    "insertions": 211,
+    "deletions": 777,
+    "substitutions": 100,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+14,
+      "overlap_time": 0,
+      "total_time": 1251.20870000000000
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1282.8480
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0578_003": {
+    "error_rate": 1.282509638976516,
+    "errors": 3659,
+    "length": 2853,
+    "insertions": 2366,
+    "deletions": 849,
+    "substitutions": 444,
+    "reference_self_overlap": {
+      "overlap_rate": 2.406860034069103662985840881E-7,
+      "overlap_time": 0.00060000000040,
+      "total_time": 2492.874500000000100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2495.0470
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "0"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  }
+}

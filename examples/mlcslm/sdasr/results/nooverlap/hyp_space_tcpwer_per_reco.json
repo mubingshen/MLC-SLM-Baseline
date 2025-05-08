@@ -1,0 +1,3420 @@
+{
+  "British_0497_004_phone": {
+    "error_rate": 0.8358133669609079,
+    "errors": 3314,
+    "length": 3965,
+    "insertions": 988,
+    "deletions": 2099,
+    "substitutions": 227,
+    "reference_self_overlap": {
+      "overlap_rate": 3.418096544752163902924827614E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2925.6049
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2913.0450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1226_008_phone": {
+    "error_rate": 0.5997206703910615,
+    "errors": 2147,
+    "length": 3580,
+    "insertions": 773,
+    "deletions": 1148,
+    "substitutions": 226,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2542.3443
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2542.8550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "British_1288_013_phone": {
+    "error_rate": 1.0772486772486773,
+    "errors": 2036,
+    "length": 1890,
+    "insertions": 590,
+    "deletions": 1361,
+    "substitutions": 85,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1790.8052
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 909.3500
+    },
+    "missed_speaker": 1,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        null
+      ]
+    ]
+  },
+  "British_1233_031_phone": {
+    "error_rate": 0.635650623885918,
+    "errors": 1783,
+    "length": 2805,
+    "insertions": 274,
+    "deletions": 1398,
+    "substitutions": 111,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1838.1724
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1836.9550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "British_7107_002_phone": {
+    "error_rate": 0.9067253803042434,
+    "errors": 2265,
+    "length": 2498,
+    "insertions": 39,
+    "deletions": 2204,
+    "substitutions": 22,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1809.1400
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1014.6600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "British_1283_004_phone": {
+    "error_rate": 0.112778730703259,
+    "errors": 263,
+    "length": 2332,
+    "insertions": 99,
+    "deletions": 74,
+    "substitutions": 90,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1883.1445
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1857.1500
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "British_1285_015_phone": {
+    "error_rate": 0.9560236511456024,
+    "errors": 2587,
+    "length": 2706,
+    "insertions": 1117,
+    "deletions": 1237,
+    "substitutions": 233,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1955.3924
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1955.0250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "British_1284_013_phone": {
+    "error_rate": 0.9414655942806077,
+    "errors": 2107,
+    "length": 2238,
+    "insertions": 708,
+    "deletions": 1185,
+    "substitutions": 214,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1873.1039
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1836.9450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "British_1137_019_phone": {
+    "error_rate": 0.4476461038961039,
+    "errors": 1103,
+    "length": 2464,
+    "insertions": 59,
+    "deletions": 1007,
+    "substitutions": 37,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1828.2906
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1828.6950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_10694_001_phone": {
+    "error_rate": 1.014010989010989,
+    "errors": 3691,
+    "length": 3640,
+    "insertions": 1294,
+    "deletions": 2235,
+    "substitutions": 162,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2806.0747
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2803.1350
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Indian_00205_002_phone": {
+    "error_rate": 0.7806702573309395,
+    "errors": 2609,
+    "length": 3342,
+    "insertions": 610,
+    "deletions": 1856,
+    "substitutions": 143,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2703.6196
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2704.1250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Indian_00126_002_phone": {
+    "error_rate": 0.5728209412419939,
+    "errors": 2057,
+    "length": 3591,
+    "insertions": 997,
+    "deletions": 580,
+    "substitutions": 480,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3625.8062
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3626.3650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00700_002_phone": {
+    "error_rate": 0.8292263610315186,
+    "errors": 2894,
+    "length": 3490,
+    "insertions": 806,
+    "deletions": 1803,
+    "substitutions": 285,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2460.8994
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.5100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00880_004_phone": {
+    "error_rate": 0.5557251908396946,
+    "errors": 1456,
+    "length": 2620,
+    "insertions": 144,
+    "deletions": 1151,
+    "substitutions": 161,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2613.7979
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2615.0450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Indian_00235_001_phone": {
+    "error_rate": 0.473480947476828,
+    "errors": 1839,
+    "length": 3884,
+    "insertions": 118,
+    "deletions": 1613,
+    "substitutions": 108,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3527.9350
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3528.1550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_00330_006_phone": {
+    "error_rate": 0.3314318311466058,
+    "errors": 581,
+    "length": 1753,
+    "insertions": 391,
+    "deletions": 112,
+    "substitutions": 78,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2051.8544
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2051.9100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_20004_001_phone": {
+    "error_rate": 0.48739760554505357,
+    "errors": 1547,
+    "length": 3174,
+    "insertions": 670,
+    "deletions": 678,
+    "substitutions": 199,
+    "reference_self_overlap": {
+      "overlap_rate": 1.340073276546834857476841691E-7,
+      "overlap_time": 0.0004,
+      "total_time": 2984.9114
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2985.4100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_10161_004_phone": {
+    "error_rate": 0.5945448973337419,
+    "errors": 1940,
+    "length": 3263,
+    "insertions": 82,
+    "deletions": 1737,
+    "substitutions": 121,
+    "reference_self_overlap": {
+      "overlap_rate": 2.983896507329245527735914815E-7,
+      "overlap_time": 0.0009,
+      "total_time": 3016.1904
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3017.0850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_00412_005_phone": {
+    "error_rate": 0.39766081871345027,
+    "errors": 1020,
+    "length": 2565,
+    "insertions": 107,
+    "deletions": 790,
+    "substitutions": 123,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2312.7532
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2312.7450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_00403_001_phone": {
+    "error_rate": 0.8489175495163519,
+    "errors": 1843,
+    "length": 2171,
+    "insertions": 787,
+    "deletions": 600,
+    "substitutions": 456,
+    "reference_self_overlap": {
+      "overlap_rate": 4.279357117315494234079807271E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2336.7996
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2336.7950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Filipino_00370_006_phone": {
+    "error_rate": 0.3986636971046771,
+    "errors": 716,
+    "length": 1796,
+    "insertions": 33,
+    "deletions": 634,
+    "substitutions": 49,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2137.8214
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2138.1000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Filipino_00365_001_phone": {
+    "error_rate": 0.41448382126348227,
+    "errors": 1076,
+    "length": 2596,
+    "insertions": 89,
+    "deletions": 908,
+    "substitutions": 79,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2083.6084
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2083.9950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1118_010_phone": {
+    "error_rate": 0.6805582858266168,
+    "errors": 3462,
+    "length": 5087,
+    "insertions": 1873,
+    "deletions": 945,
+    "substitutions": 644,
+    "reference_self_overlap": {
+      "overlap_rate": 5.541667367456685842960063891E-8,
+      "overlap_time": 0.0002,
+      "total_time": 3609.0221
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3609.9650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1114_016_phone": {
+    "error_rate": 0.36142735768903994,
+    "errors": 2127,
+    "length": 5885,
+    "insertions": 893,
+    "deletions": 757,
+    "substitutions": 477,
+    "reference_self_overlap": {
+      "overlap_rate": 2.684131991439122061224406533E-8,
+      "overlap_time": 0.0001,
+      "total_time": 3725.5992
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3725.2150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Australian_1025_011_phone": {
+    "error_rate": 0.6778137360661632,
+    "errors": 3770,
+    "length": 5562,
+    "insertions": 482,
+    "deletions": 3145,
+    "substitutions": 143,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3711.4222
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3711.8850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Australian_1127_015_phone": {
+    "error_rate": 0.47565614302015974,
+    "errors": 2501,
+    "length": 5258,
+    "insertions": 377,
+    "deletions": 1875,
+    "substitutions": 249,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3937.4025
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3937.9400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1141_006_phone": {
+    "error_rate": 0.37504137702747437,
+    "errors": 1133,
+    "length": 3021,
+    "insertions": 130,
+    "deletions": 794,
+    "substitutions": 209,
+    "reference_self_overlap": {
+      "overlap_rate": 5.407467842870232019304227602E-8,
+      "overlap_time": 0.0001,
+      "total_time": 1849.2944
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1854.8900
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Australian_1617_014_phone": {
+    "error_rate": 0.55375,
+    "errors": 1329,
+    "length": 2400,
+    "insertions": 517,
+    "deletions": 523,
+    "substitutions": 289,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1807.8971
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1808.2250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0598_001": {
+    "error_rate": 0.5488656195462478,
+    "errors": 629,
+    "length": 1146,
+    "insertions": 288,
+    "deletions": 257,
+    "substitutions": 84,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 800.4055
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 800.7250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0517_007": {
+    "error_rate": 0.44702119152339065,
+    "errors": 1118,
+    "length": 2501,
+    "insertions": 445,
+    "deletions": 551,
+    "substitutions": 122,
+    "reference_self_overlap": {
+      "overlap_rate": 1.241871434017921860621457303E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2415.7090
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2422.4150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0571_002": {
+    "error_rate": 0.2678711704634721,
+    "errors": 682,
+    "length": 2546,
+    "insertions": 120,
+    "deletions": 416,
+    "substitutions": 146,
+    "reference_self_overlap": {
+      "overlap_rate": 2.891089319915429855213833846E-7,
+      "overlap_time": 0.0007,
+      "total_time": 2421.2327
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2420.9550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0660_003": {
+    "error_rate": 0.39710685954269714,
+    "errors": 851,
+    "length": 2143,
+    "insertions": 403,
+    "deletions": 291,
+    "substitutions": 157,
+    "reference_self_overlap": {
+      "overlap_rate": 4.570717524492075587052674731E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2187.8403
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2206.1100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0525_002": {
+    "error_rate": 0.7762848505206584,
+    "errors": 2311,
+    "length": 2977,
+    "insertions": 1459,
+    "deletions": 259,
+    "substitutions": 593,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2786.2600
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2785.4350
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0588_002": {
+    "error_rate": 0.8553555750658473,
+    "errors": 3897,
+    "length": 4556,
+    "insertions": 91,
+    "deletions": 3752,
+    "substitutions": 54,
+    "reference_self_overlap": {
+      "overlap_rate": 3.165348299100091478565843993E-7,
+      "overlap_time": 0.0010,
+      "total_time": 3159.2100
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3004.3100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0640_003": {
+    "error_rate": 0.27367109634551495,
+    "errors": 659,
+    "length": 2408,
+    "insertions": 401,
+    "deletions": 54,
+    "substitutions": 204,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2376.6643
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2389.3100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "American_0707_001": {
+    "error_rate": 0.6476130653266332,
+    "errors": 1031,
+    "length": 1592,
+    "insertions": 196,
+    "deletions": 732,
+    "substitutions": 103,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1251.2087
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1282.7750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "American_0578_003": {
+    "error_rate": 0.36102348405187523,
+    "errors": 1030,
+    "length": 2853,
+    "insertions": 243,
+    "deletions": 379,
+    "substitutions": 408,
+    "reference_self_overlap": {
+      "overlap_rate": 2.406860032464530404559074273E-7,
+      "overlap_time": 0.0006,
+      "total_time": 2492.8745
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2494.9850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Portuguese_2128_015_phone": {
+    "error_rate": 1.3361972357116174,
+    "errors": 3577,
+    "length": 2677,
+    "insertions": 2378,
+    "deletions": 561,
+    "substitutions": 638,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1851.3709
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1851.1750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Portuguese_2127_008_phone": {
+    "error_rate": 2.3027591349739,
+    "errors": 3088,
+    "length": 1341,
+    "insertions": 2417,
+    "deletions": 151,
+    "substitutions": 520,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1543.9692
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1543.7150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Portuguese_2186_036_phone": {
+    "error_rate": 0.9058629232039637,
+    "errors": 2194,
+    "length": 2422,
+    "insertions": 440,
+    "deletions": 1627,
+    "substitutions": 127,
+    "reference_self_overlap": {
+      "overlap_rate": 3.878245045361893173075383499E-7,
+      "overlap_time": 0.0007,
+      "total_time": 1804.9401
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1806.3450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Portuguese_2314_008_phone": {
+    "error_rate": 1.1598419540229885,
+    "errors": 3229,
+    "length": 2784,
+    "insertions": 989,
+    "deletions": 2056,
+    "substitutions": 184,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1797.3770
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1747.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Portuguese_2183_011_phone": {
+    "error_rate": 1.046977421704297,
+    "errors": 2875,
+    "length": 2746,
+    "insertions": 1709,
+    "deletions": 603,
+    "substitutions": 563,
+    "reference_self_overlap": {
+      "overlap_rate": 5.166236844371609689359861408E-8,
+      "overlap_time": 0.0001,
+      "total_time": 1935.6449
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1935.5950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Portuguese_2239_036_phone": {
+    "error_rate": 2.0509803921568626,
+    "errors": 2615,
+    "length": 1275,
+    "insertions": 2271,
+    "deletions": 161,
+    "substitutions": 183,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1782.6403
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1819.6550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Portuguese_2081_028_phone": {
+    "error_rate": 0.8765765765765766,
+    "errors": 2919,
+    "length": 3330,
+    "insertions": 856,
+    "deletions": 1539,
+    "substitutions": 524,
+    "reference_self_overlap": {
+      "overlap_rate": 5.329098760403666441263552764E-8,
+      "overlap_time": 0.0001,
+      "total_time": 1876.4899
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1868.8950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Portuguese_2282_003_phone": {
+    "error_rate": 1.1452054794520548,
+    "errors": 2926,
+    "length": 2555,
+    "insertions": 1278,
+    "deletions": 1234,
+    "substitutions": 414,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1861.3029
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1784.8450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Portuguese_2205_005_phone": {
+    "error_rate": 1.3776255707762557,
+    "errors": 3017,
+    "length": 2190,
+    "insertions": 1919,
+    "deletions": 362,
+    "substitutions": 736,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1806.5266
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1813.8850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Portuguese_2273_008_phone": {
+    "error_rate": 0.6288032454361054,
+    "errors": 1240,
+    "length": 1972,
+    "insertions": 512,
+    "deletions": 541,
+    "substitutions": 187,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1819.5499
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1819.2600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0288_003_phone": {
+    "error_rate": 0.7376323475721066,
+    "errors": 16163,
+    "length": 21912,
+    "insertions": 4881,
+    "deletions": 9280,
+    "substitutions": 2002,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3581.0687
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3548.2450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0313_002_phone": {
+    "error_rate": 1.0994230769230768,
+    "errors": 17151,
+    "length": 15600,
+    "insertions": 8698,
+    "deletions": 5940,
+    "substitutions": 2513,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3219.2119
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3219.5250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Thai_0317_004_phone": {
+    "error_rate": 0.8680500788643533,
+    "errors": 17611,
+    "length": 20288,
+    "insertions": 2666,
+    "deletions": 14361,
+    "substitutions": 584,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3619.4147
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3619.9550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0303_001_phone": {
+    "error_rate": 0.6756068653702647,
+    "errors": 15391,
+    "length": 22781,
+    "insertions": 4309,
+    "deletions": 9244,
+    "substitutions": 1838,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3793.8618
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3791.6950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Thai_0318_002_phone": {
+    "error_rate": 0.9098684210526315,
+    "errors": 12447,
+    "length": 13680,
+    "insertions": 1187,
+    "deletions": 10547,
+    "substitutions": 713,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2180.7658
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2180.9150
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0315_004_phone": {
+    "error_rate": 0.8709900761597046,
+    "errors": 3774,
+    "length": 4333,
+    "insertions": 1561,
+    "deletions": 1523,
+    "substitutions": 690,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1929.2801
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1929.0950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Japanese_0474_001_phone": {
+    "error_rate": 0.482990906028966,
+    "errors": 1434,
+    "length": 2969,
+    "insertions": 578,
+    "deletions": 280,
+    "substitutions": 576,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1868.6608
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1871.1450
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0336_006_phone": {
+    "error_rate": 0.9058219178082192,
+    "errors": 3174,
+    "length": 3504,
+    "insertions": 2000,
+    "deletions": 560,
+    "substitutions": 614,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1938.5800
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1951.6950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0229_002_phone": {
+    "error_rate": 0.49075975359342916,
+    "errors": 1195,
+    "length": 2435,
+    "insertions": 518,
+    "deletions": 181,
+    "substitutions": 496,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1965.3109
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1957.3200
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Japanese_0495_004_phone": {
+    "error_rate": 0.4914813745307537,
+    "errors": 1702,
+    "length": 3463,
+    "insertions": 947,
+    "deletions": 286,
+    "substitutions": 469,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1897.8150
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1903.0400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Japanese_0263_002_phone": {
+    "error_rate": 0.6991234304667141,
+    "errors": 2951,
+    "length": 4221,
+    "insertions": 1339,
+    "deletions": 539,
+    "substitutions": 1073,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1821.6161
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1821.8050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0203_005_phone": {
+    "error_rate": 0.6473886102095013,
+    "errors": 2194,
+    "length": 3389,
+    "insertions": 780,
+    "deletions": 464,
+    "substitutions": 950,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1810.6928
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1831.6700
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 1,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ],
+      [
+        null,
+        "3"
+      ]
+    ]
+  },
+  "Japanese_0147_002_phone": {
+    "error_rate": 0.3845975948196115,
+    "errors": 1663,
+    "length": 4324,
+    "insertions": 818,
+    "deletions": 440,
+    "substitutions": 405,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1836.1928
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1828.8700
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Japanese_0321_005_phone": {
+    "error_rate": 1.36,
+    "errors": 5100,
+    "length": 3750,
+    "insertions": 3625,
+    "deletions": 326,
+    "substitutions": 1149,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1939.2485
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1939.7050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Japanese_0177_004_phone": {
+    "error_rate": 0.7371404576947302,
+    "errors": 3511,
+    "length": 4763,
+    "insertions": 1428,
+    "deletions": 1646,
+    "substitutions": 437,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1882.6456
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1881.8550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Japanese_0130_004_phone": {
+    "error_rate": 0.6632869606224947,
+    "errors": 2813,
+    "length": 4241,
+    "insertions": 522,
+    "deletions": 2019,
+    "substitutions": 272,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1811.1486
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1600.2900
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Russian_4027_006_phone": {
+    "error_rate": 0.5920900692840647,
+    "errors": 2051,
+    "length": 3464,
+    "insertions": 50,
+    "deletions": 1918,
+    "substitutions": 83,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3164.2497
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3164.5600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Russian_4112_001_phone": {
+    "error_rate": 0.583648393194707,
+    "errors": 1235,
+    "length": 2116,
+    "insertions": 443,
+    "deletions": 266,
+    "substitutions": 526,
+    "reference_self_overlap": {
+      "overlap_rate": 3.939301819417756221743141843E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2538.5209
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2538.6250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Russian_4104_001_phone": {
+    "error_rate": 0.7887245325146526,
+    "errors": 2826,
+    "length": 3583,
+    "insertions": 191,
+    "deletions": 2491,
+    "substitutions": 144,
+    "reference_self_overlap": {
+      "overlap_rate": 1.075202859867574790170129886E-7,
+      "overlap_time": 0.0004,
+      "total_time": 3720.2282
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3720.2950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Russian_4130_004_phone": {
+    "error_rate": 0.7514693534844669,
+    "errors": 2685,
+    "length": 3573,
+    "insertions": 61,
+    "deletions": 2520,
+    "substitutions": 104,
+    "reference_self_overlap": {
+      "overlap_rate": 1.646155658613435406690163161E-7,
+      "overlap_time": 0.0006,
+      "total_time": 3644.8558
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3629.6100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Russian_4098_001_phone": {
+    "error_rate": 0.6967882416984214,
+    "errors": 2560,
+    "length": 3674,
+    "insertions": 991,
+    "deletions": 1034,
+    "substitutions": 535,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3670.5511
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3668.0050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0318_001_phone": {
+    "error_rate": 1.5769971126082771,
+    "errors": 3277,
+    "length": 2078,
+    "insertions": 2113,
+    "deletions": 301,
+    "substitutions": 863,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2492.6074
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2494.0850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Vietnamese_0257_009_phone": {
+    "error_rate": 0.968785151856018,
+    "errors": 3445,
+    "length": 3556,
+    "insertions": 72,
+    "deletions": 3318,
+    "substitutions": 55,
+    "reference_self_overlap": {
+      "overlap_rate": 4.472709733605967355145285073E-7,
+      "overlap_time": 0.0008,
+      "total_time": 1788.6249
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1736.8700
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0263_009_phone": {
+    "error_rate": 0.905422446406053,
+    "errors": 2872,
+    "length": 3172,
+    "insertions": 195,
+    "deletions": 2634,
+    "substitutions": 43,
+    "reference_self_overlap": {
+      "overlap_rate": 7.040497210744556950988120244E-7,
+      "overlap_time": 0.0013,
+      "total_time": 1846.4605
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1280.3600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0537_002_phone": {
+    "error_rate": 0.7639360155113912,
+    "errors": 3152,
+    "length": 4126,
+    "insertions": 675,
+    "deletions": 2071,
+    "substitutions": 406,
+    "reference_self_overlap": {
+      "overlap_rate": 1.238938601300266062064629232E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2421.4275
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2421.0650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0055_006_phone": {
+    "error_rate": 0.4736320871502847,
+    "errors": 1913,
+    "length": 4039,
+    "insertions": 899,
+    "deletions": 439,
+    "substitutions": 575,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2631.7751
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2646.8550
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0593_001_phone": {
+    "error_rate": 0.5329324169530355,
+    "errors": 1861,
+    "length": 3492,
+    "insertions": 747,
+    "deletions": 299,
+    "substitutions": 815,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2039.0987
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2040.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Vietnamese_0297_001_phone": {
+    "error_rate": 0.9770330442934145,
+    "errors": 4169,
+    "length": 4267,
+    "insertions": 351,
+    "deletions": 3736,
+    "substitutions": 82,
+    "reference_self_overlap": {
+      "overlap_rate": 9.202494612239485879832304941E-7,
+      "overlap_time": 0.0023,
+      "total_time": 2499.3223
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2499.4950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Vietnamese_0622_003_phone": {
+    "error_rate": 0.7634766807995155,
+    "errors": 2521,
+    "length": 3302,
+    "insertions": 1358,
+    "deletions": 521,
+    "substitutions": 642,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.3515
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2393.5800
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Korean_0263_001": {
+    "error_rate": 0.5901835594573025,
+    "errors": 1479,
+    "length": 2506,
+    "insertions": 625,
+    "deletions": 548,
+    "substitutions": 306,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1298.1302
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1298.7250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Korean_0220_003": {
+    "error_rate": 0.5458842063804648,
+    "errors": 2772,
+    "length": 5078,
+    "insertions": 753,
+    "deletions": 1221,
+    "substitutions": 798,
+    "reference_self_overlap": {
+      "overlap_rate": 7.625400957879992126010970893E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2622.8129
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2622.7600
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1008_001": {
+    "error_rate": 0.5851511672407195,
+    "errors": 3058,
+    "length": 5226,
+    "insertions": 1215,
+    "deletions": 1204,
+    "substitutions": 639,
+    "reference_self_overlap": {
+      "overlap_rate": 1.247350834718862921631608070E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2405.0972
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2406.3000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Korean_0397_001": {
+    "error_rate": 0.40751614797416325,
+    "errors": 1388,
+    "length": 3406,
+    "insertions": 575,
+    "deletions": 571,
+    "substitutions": 242,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2405.0243
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2425.2200
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1116_004": {
+    "error_rate": 0.4542671948145481,
+    "errors": 2523,
+    "length": 5554,
+    "insertions": 345,
+    "deletions": 1996,
+    "substitutions": 182,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2397.8147
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2397.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1139_001": {
+    "error_rate": 0.8568,
+    "errors": 4284,
+    "length": 5000,
+    "insertions": 1647,
+    "deletions": 1812,
+    "substitutions": 825,
+    "reference_self_overlap": {
+      "overlap_rate": 8.178767575864816749396263824E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2445.3562
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2446.2850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Korean_1138_004": {
+    "error_rate": 0.7613740179060844,
+    "errors": 4167,
+    "length": 5473,
+    "insertions": 1474,
+    "deletions": 2281,
+    "substitutions": 412,
+    "reference_self_overlap": {
+      "overlap_rate": 2.513048059656745278579544819E-7,
+      "overlap_time": 0.0006,
+      "total_time": 2387.5389
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2387.7800
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Korean_0246_006": {
+    "error_rate": 0.49172002649591523,
+    "errors": 2227,
+    "length": 4529,
+    "insertions": 1046,
+    "deletions": 338,
+    "substitutions": 843,
+    "reference_self_overlap": {
+      "overlap_rate": 8.602116499151917334348612470E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2325.0092
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2329.9750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Italian_0085_002_phone": {
+    "error_rate": 0.71897193101116,
+    "errors": 2126,
+    "length": 2957,
+    "insertions": 635,
+    "deletions": 1122,
+    "substitutions": 369,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3011.1242
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3011.5950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0161_001_phone": {
+    "error_rate": 0.8479692645444566,
+    "errors": 3090,
+    "length": 3644,
+    "insertions": 8,
+    "deletions": 3019,
+    "substitutions": 63,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2645.7211
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2651.6500
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 1,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ],
+      [
+        null,
+        "3"
+      ]
+    ]
+  },
+  "Italian_0204_001_phone": {
+    "error_rate": 1.0292698616918623,
+    "errors": 3200,
+    "length": 3109,
+    "insertions": 1066,
+    "deletions": 1780,
+    "substitutions": 354,
+    "reference_self_overlap": {
+      "overlap_rate": 1.557469859064552453248648506E-7,
+      "overlap_time": 0.0004,
+      "total_time": 2568.2680
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2587.6100
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0190_003_phone": {
+    "error_rate": 0.8417699115044248,
+    "errors": 2378,
+    "length": 2825,
+    "insertions": 402,
+    "deletions": 1884,
+    "substitutions": 92,
+    "reference_self_overlap": {
+      "overlap_rate": 3.748783519747841825327681167E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2667.5320
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2639.6400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0103_003_phone": {
+    "error_rate": 0.6685610953242056,
+    "errors": 2588,
+    "length": 3871,
+    "insertions": 636,
+    "deletions": 1275,
+    "substitutions": 677,
+    "reference_self_overlap": {
+      "overlap_rate": 4.057209740825036035122615573E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2464.7481
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2442.3050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Italian_0100_004_phone": {
+    "error_rate": 0.9160127869805289,
+    "errors": 3152,
+    "length": 3441,
+    "insertions": 1418,
+    "deletions": 1370,
+    "substitutions": 364,
+    "reference_self_overlap": {
+      "overlap_rate": 3.240481547223651004544418917E-8,
+      "overlap_time": 0.0001,
+      "total_time": 3085.9611
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3086.8050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_0345_002_phone": {
+    "error_rate": 0.9058872305140961,
+    "errors": 2185,
+    "length": 2412,
+    "insertions": 1171,
+    "deletions": 615,
+    "substitutions": 399,
+    "reference_self_overlap": {
+      "overlap_rate": 7.800024531077150237637497370E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2564.0945
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2576.2850
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_2012_001_phone": {
+    "error_rate": 1.5109855618330195,
+    "errors": 4814,
+    "length": 3186,
+    "insertions": 3479,
+    "deletions": 602,
+    "substitutions": 733,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2520.8207
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2529.0350
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "French_1221_004_phone": {
+    "error_rate": 1.0455652173913044,
+    "errors": 3006,
+    "length": 2875,
+    "insertions": 1322,
+    "deletions": 1422,
+    "substitutions": 262,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2396.4086
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2396.9350
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1255_004_phone": {
+    "error_rate": 0.7857142857142857,
+    "errors": 2981,
+    "length": 3794,
+    "insertions": 462,
+    "deletions": 2354,
+    "substitutions": 165,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2588.7937
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2591.4250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_0311_005_phone": {
+    "error_rate": 1.1130346232179227,
+    "errors": 3279,
+    "length": 2946,
+    "insertions": 1926,
+    "deletions": 990,
+    "substitutions": 363,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2645.8869
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2649.4050
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "French_1166_005_phone": {
+    "error_rate": 0.7981762917933131,
+    "errors": 2626,
+    "length": 3290,
+    "insertions": 1091,
+    "deletions": 1234,
+    "substitutions": 301,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2513.8136
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2515.8750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "French_1205_003_phone": {
+    "error_rate": 0.8000882612533098,
+    "errors": 1813,
+    "length": 2266,
+    "insertions": 60,
+    "deletions": 1694,
+    "substitutions": 59,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1872.3768
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 1740.9300
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "French_1102_001_phone": {
+    "error_rate": 0.7224143351147438,
+    "errors": 2298,
+    "length": 3181,
+    "insertions": 720,
+    "deletions": 1304,
+    "substitutions": 274,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2544.0967
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2546.9750
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "German_0195_002_phone": {
+    "error_rate": 0.850968285152961,
+    "errors": 3032,
+    "length": 3563,
+    "insertions": 1601,
+    "deletions": 422,
+    "substitutions": 1009,
+    "reference_self_overlap": {
+      "overlap_rate": 4.103573371173751246716884830E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2436.9005
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2437.1800
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "German_0285_004_phone": {
+    "error_rate": 0.8011248593925759,
+    "errors": 3561,
+    "length": 4445,
+    "insertions": 1620,
+    "deletions": 1002,
+    "substitutions": 939,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3576.6673
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3333.7200
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "German_0215_021_phone": {
+    "error_rate": 1.5377245508982036,
+    "errors": 3852,
+    "length": 2505,
+    "insertions": 2328,
+    "deletions": 562,
+    "substitutions": 962,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2459.8951
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2464.8650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "German_0318_001_phone": {
+    "error_rate": 0.7071547420965059,
+    "errors": 2125,
+    "length": 3005,
+    "insertions": 679,
+    "deletions": 1142,
+    "substitutions": 304,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2398.6662
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2399.4650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0205_001_phone": {
+    "error_rate": 0.6701517706576728,
+    "errors": 1987,
+    "length": 2965,
+    "insertions": 974,
+    "deletions": 598,
+    "substitutions": 415,
+    "reference_self_overlap": {
+      "overlap_rate": 8.199881626508839718389825324E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2439.0596
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2439.5000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0213_001_phone": {
+    "error_rate": 0.6689475399152819,
+    "errors": 2053,
+    "length": 3069,
+    "insertions": 409,
+    "deletions": 1379,
+    "substitutions": 265,
+    "reference_self_overlap": {
+      "overlap_rate": 8.183086746243093730507631649E-8,
+      "overlap_time": 0.0002,
+      "total_time": 2444.0655
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2444.4300
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "German_0180_005_phone": {
+    "error_rate": 0.9918236757909705,
+    "errors": 2790,
+    "length": 2813,
+    "insertions": 1225,
+    "deletions": 1327,
+    "substitutions": 238,
+    "reference_self_overlap": {
+      "overlap_rate": 4.148770771080163586031503691E-8,
+      "overlap_time": 0.0001,
+      "total_time": 2410.3525
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2522.7950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "1"
+      ],
+      [
+        "O1",
+        "2"
+      ]
+    ]
+  },
+  "Spanish_2085_003_phone": {
+    "error_rate": 0.6797451374916164,
+    "errors": 6081,
+    "length": 8946,
+    "insertions": 2280,
+    "deletions": 3072,
+    "substitutions": 729,
+    "reference_self_overlap": {
+      "overlap_rate": 2.853277888437405217675143470E-7,
+      "overlap_time": 0.0017,
+      "total_time": 5958.0597
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 5958.7400
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Spanish_5139_002_phone": {
+    "error_rate": 0.9218697829716194,
+    "errors": 2761,
+    "length": 2995,
+    "insertions": 1953,
+    "deletions": 384,
+    "substitutions": 424,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2513.7282
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2513.0950
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "2"
+      ],
+      [
+        "O2",
+        "1"
+      ]
+    ]
+  },
+  "Spanish_5075_004_phone": {
+    "error_rate": 0.6012558869701727,
+    "errors": 1915,
+    "length": 3185,
+    "insertions": 346,
+    "deletions": 1463,
+    "substitutions": 106,
+    "reference_self_overlap": {
+      "overlap_rate": 1.176443091761463143841814521E-7,
+      "overlap_time": 0.0003,
+      "total_time": 2550.0596
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2550.6250
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  },
+  "Spanish_4013_002_phone": {
+    "error_rate": 0.8806251684182161,
+    "errors": 3268,
+    "length": 3711,
+    "insertions": 1097,
+    "deletions": 1959,
+    "substitutions": 212,
+    "reference_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3634.8017
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 3620.2000
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O2",
+        "2"
+      ],
+      [
+        "O1",
+        "1"
+      ]
+    ]
+  },
+  "Spanish_5094_002_phone": {
+    "error_rate": 0.8140032068412614,
+    "errors": 3046,
+    "length": 3742,
+    "insertions": 1174,
+    "deletions": 1494,
+    "substitutions": 378,
+    "reference_self_overlap": {
+      "overlap_rate": 4.527636425197251625905110537E-7,
+      "overlap_time": 0.0011,
+      "total_time": 2429.5237
+    },
+    "hypothesis_self_overlap": {
+      "overlap_rate": 0E+4,
+      "overlap_time": 0,
+      "total_time": 2455.5650
+    },
+    "missed_speaker": 0,
+    "falarm_speaker": 0,
+    "scored_speaker": 2,
+    "assignment": [
+      [
+        "O1",
+        "1"
+      ],
+      [
+        "O2",
+        "2"
+      ]
+    ]
+  }
+}
