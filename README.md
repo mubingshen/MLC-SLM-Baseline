@@ -61,17 +61,17 @@ pip install -r requirements.txt
 | English-British    | 10.08                       | 11.00         | 10.97          |
 | English-Filipino   | 9.20                        | 8.06          | 8.26           |
 | English-Indian     | 13.96                       | 16.87         | 15.67          |
-| French             | 26.72                       | 25.69         | 26.43          |
-| German             | 20.53                       | 33.95         | 32.37          |
-| Italian            | 17.94                       | 23.47         | 24.15          |
+| French             | 28.14                       | 25.69         | 26.43          |
+| German             | 20.72                       | 33.95         | 32.37          |
+| Italian            | 17.92                       | 23.47         | 24.15          |
 | Japanese           | 21.64                       | 34.74         | 33.82          |
 | Korean             | 13.80                       | 20.77         | 22.56          |
-| Portuguese         | 20.82                       | 34.02         | 33.91          |
-| Russian            | 7.36                        | 18.25         | 19.07          |
-| Spanish            | 12.24                       | 14.31         | 16.41          |
+| Portuguese         | 21.23                       | 34.02         | 33.91          |
+| Russian            | 17.67                        | 18.25         | 19.07          |
+| Spanish            | 12.27                       | 14.31         | 16.41          |
 | Thai               | 14.49                       | 21.67         | 19.62          |
-| Vietnamese         | 23.02                       | 21.50         | 22.92          |
-| Avg.               | 15.36                       | 21.49         | 21.56          |
+| Vietnamese         | 27.16                       | 21.50         | 22.92          |
+| Avg.               | 16.82                       | 21.49         | 21.56          |
 
 ## Task II: Multilingual Conversational Speech Diarization and Recognition
 
